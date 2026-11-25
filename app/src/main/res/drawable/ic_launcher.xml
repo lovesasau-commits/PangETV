@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 天线 -->
+    <path
+        android:strokeColor="#FF6A3D"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M40,30 L54,20" />
+    <path
+        android:strokeColor="#FF6A3D"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M68,30 L54,20" />
+
+    <!-- 机身 -->
+    <path
+        android:fillColor="#FF6A3D"
+        android:pathData="M20,34 h68 a7,7 0 0 1 7,7 v36 a7,7 0 0 1 -7,7 h-68 a7,7 0 0 1 -7,-7 v-36 a7,7 0 0 1 7,-7 z" />
+
+    <!-- 屏幕 -->
+    <path
+        android:fillColor="#0E1116"
+        android:pathData="M24,42 h60 v30 h-60 z" />
+
+    <!-- 屏幕里的鹅（橙色小圆 + 脖子 + 嘴） -->
+    <path
+        android:fillColor="#FF6A3D"
+        android:pathData="M46,50 m-9,0 a9,9 0 1 0 18,0 a9,9 0 1 0 -18,0 z" />
+    <path
+        android:fillColor="#FF6A3D"
+        android:pathData="M53,48 c3,-8 9,-11 13,-8 c3,2 1,7 -3,9 c-3,2 -7,2 -10,-1 z" />
+    <path
+        android:fillColor="#FFC043"
+        android:pathData="M66,39 l7,2 l-7,3 z" />
+
+    <!-- 底座 -->
+    <path
+        android:fillColor="#0E1116"
+        android:pathData="M44,84 h20 v5 h-20 z" />
+</vector>
