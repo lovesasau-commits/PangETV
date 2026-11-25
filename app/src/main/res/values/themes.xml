@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PangETV" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorPrimaryVariant">@color/brand_dim</item>
+        <item name="colorSecondary">@color/brand</item>
+        <item name="colorAccent">@color/brand</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:textColorPrimary">@color/fg</item>
+        <item name="android:textColorSecondary">@color/fg_dim</item>
+        <item name="android:textColorHint">@color/fg_dim</item>
+    </style>
+
+    <style name="Theme.PangETV.Player" parent="Theme.PangETV">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>
