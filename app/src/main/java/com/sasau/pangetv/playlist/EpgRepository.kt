@@ -18,7 +18,7 @@ import java.util.Locale
  */
 object EpgRepository {
 
-    private const val EPG_URLS = listOf(
+    private val EPG_URLS = listOf(
         "https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml",
         "https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml"
     )

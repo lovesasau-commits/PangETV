@@ -35,7 +35,8 @@ android {
 
     kotlinOptions {
         jvmTarget = "17"
-        freeCompilerArgs.add("-opt-in=androidx.media3.common.util.UnstableApi")
+        // freeCompilerArgs 是只读 List，必须用赋值而不是 .add()
+        freeCompilerArgs = freeCompilerArgs + "-opt-in=androidx.media3.common.util.UnstableApi"
     }
 
     buildFeatures {
@@ -57,6 +58,10 @@ dependencies {
     implementation("androidx.media3:media3-exoplayer:1.4.1")
     implementation("androidx.media3:media3-exoplayer-hls:1.4.1")
     implementation("androidx.media3:media3-ui:1.4.1")
+    // HTTP 层走 OkHttp：Media3 1.4.1 的 DataSource 没有 Dns 抽象，
+    // 咪咕 CDN 的 DNS 别名必须靠 OkHttp 的 Dns 钩子实现。
+    implementation("androidx.media3:media3-datasource-okhttp:1.4.1")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 }

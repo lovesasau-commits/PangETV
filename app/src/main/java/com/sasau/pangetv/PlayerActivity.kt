@@ -129,7 +129,7 @@ class PlayerActivity : AppCompatActivity() {
 
     @Deprecated("兼容旧版 onBackPressed")
     override fun onBackPressed() {
-        if (binding.playerView.isControllerVisible) {
+        if (binding.playerView.isControllerFullyVisible) {
             binding.playerView.hideController()
         } else {
             super.onBackPressed()

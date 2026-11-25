@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-25",
+  "note": "只保留实测可用的地址；build_playlist.py 读取本文件覆盖韩台镜像",
+  "mirrors": {
+    "Arirang TV": [
+      "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "https://amdlive-ch02-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "https://freem3u.xyz/api/live/play.m3u8?vid=111"
+    ],
+    "Arirang TV UN": [
+      "https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8"
+    ],
+    "BBS Buddhist Broadcasting": [
+      "http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8"
+    ],
+    "BTN TV": [
+      "https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8"
+    ],
+    "CGNTV": [
+      "http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8"
+    ],
+    "FGTV": [
+      "https://fgtvlive.fgtv.com/smil:fgtv.smil/playlist.m3u8"
+    ],
+    "GCN24 Korean": [
+      "http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8"
+    ],
+    "KBS LiveCam DokDo": [
+      "http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8"
+    ],
+    "NBS Korea Agricultural Broadcasting": [
+      "https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8"
+    ],
+    "NHTV": [
+      "http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8"
+    ],
+    "OUN": [
+      "https://live.knou.ac.kr/knou1/live1/playlist.m3u8"
+    ],
+    "RUTC TV": [
+      "http://d26sxnc75smwvh.cloudfront.net/livehttporigin/rutclive_720p2.stream/playlist.m3u8"
+    ],
+    "SBS CJB": [
+      "http://1.222.207.80:1935/live/cjbtv/playlist.m3u8"
+    ],
+    "SBS JTV": [
+      "http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8"
+    ],
+    "TBS Seoul": [
+      "https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8"
+    ],
+    "TV Chosun": [
+      "http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8"
+    ],
+    "TV Chosun 2": [
+      "http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8"
+    ],
+    "Arirang FM": [
+      "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
+      "http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
+      "http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
+      "http://amdlive.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
+      "https://amdlive-ch02-ctnd-com.akamaized.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8"
+    ],
+    "befm": [
+      "http://befm905.live.smilecdn.com:1935/befm905_live/live/playlist.m3u8"
+    ],
+    "GugakFM": [
+      "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/chunklist_w253831608.m3u8",
+      "http://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
+      "https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8"
+    ],
+    "gukak": [
+      "http://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8"
+    ],
+    "JTV 매직FM": [
+      "https://61ff3340258d2.streamlock.net/jtv_radio/myStream/chunklist_w111659793.m3u8"
+    ],
+    "MBC FM": [
+      "http://serpent0.duckdns.org:8088/mbcsfm.pls"
+    ],
+    "MBC충북 FM4U": [
+      "http://211.33.246.4:32954/radio_fm/myStream.sdp/chunklist_w348337231.m3u8"
+    ],
+    "MBC충북 표준FM": [
+      "http://211.33.246.4:32954/radio_stfm/myStream.sdp/chunklist_w392819215.m3u8"
+    ],
+    "TBN 교통방송": [
+      "http://radio2.tbn.or.kr:1935/gyeongin/myStream/playlist.m3u8"
+    ],
+    "TBN 울산교통방송": [
+      "http://radio2.tbn.or.kr:1935/ulsan/myStream/playlist.m3u8"
+    ],
+    "마포FM": [
+      "http://115.85.182.39/mapofm?type=.mp3"
+    ],
+    "안동MBC AM": [
+      "http://andong.webcasting.co.kr:1935/live/amlive/playlist.m3u8"
+    ],
+    "MBC": [
+      "http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8"
+    ]
+  }
+}

@@ -71,7 +71,7 @@ object M3uParser {
                         referer = kv.substringAfter("=").trim()
                     }
                 }
-                line.startswith("#") -> Unit
+                line.startsWith("#") -> Unit
                 else -> urls.add(line)
             }
         }

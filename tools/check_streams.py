@@ -123,35 +123,54 @@ def probe(url, referer=None):
 
 # ── 列表解析 ────────────────────────────────────────────────────
 def parse_playlist(path):
+    """解析 M3U：每个 EXTINF 块产出一个频道，块内所有镜像 URL 归到该频道。
+
+    （早前版本按 URL 行建条目，会把一个频道的多路镜像算成多个频道，
+     并且在 EXTGRP 分组边界上串组；这里已修正。）
+    """
     text = open(path, encoding="utf-8").read()
-    channels, group, name, attrs, urls, referer = [], "其它", "", {}, [], None
+    channels = []
+    state = {"group": "其它", "name": "", "attrs": {}, "urls": [], "referer": None}
+
+    def flush():
+        if state["urls"]:
+            channels.append({"group": state["group"], "name": state["name"],
+                             "attrs": state["attrs"], "referer": state["referer"],
+                             "urls": list(state["urls"])})
+        # 结算后必须清空，否则在 EXTGRP 边界会被重复计入下一个频道
+        state["urls"] = []
+        state["referer"] = None
+
     for raw in text.replace("\r\n", "\n").split("\n"):
         line = raw.strip()
         if not line:
             continue
         if line.startswith("#EXTINF:"):
+            flush()
             payload = line[len("#EXTINF:"):]
             i = payload.rfind(",")
             head, name = (payload[:i], payload[i + 1:].strip()) if i >= 0 else ("", payload.strip())
             attrs = {k.lower(): v for k, v in re.findall(r'([A-Za-z0-9_.-]+)\s*=\s*"([^"]*)"', head)}
+            state["attrs"] = attrs
+            state["name"] = name
             if attrs.get("group-title"):
-                group = attrs["group-title"]
-            urls, referer = [], None
+                state["group"] = attrs["group-title"]
+            state["urls"] = []
+            state["referer"] = None
             continue
         if line.startswith("#EXTGRP:"):
-            group = line[len("#EXTGRP:"):].strip()
-            urls, referer = [], None
+            flush()          # 先结算上一组最后一个频道，再切组，避免串组
+            state["group"] = line[len("#EXTGRP:"):].strip()
             continue
         if line.startswith("#EXTVLCOPT:"):
             kv = line[len("#EXTVLCOPT:"):]
             if kv.lower().startswith("http-referrer="):
-                referer = kv.split("=", 1)[1].strip()
+                state["referer"] = kv.split("=", 1)[1].strip()
             continue
         if line.startswith("#"):
             continue
-        urls.append(line)
-        channels.append({"group": group, "name": name, "attrs": attrs,
-                         "referer": referer, "urls": list(urls)})
+        state["urls"].append(line)
+    flush()
     return channels
 
 
