@@ -661,6 +661,7 @@ http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+https://freem3u.xyz/api/live/play.m3u8?vid=111
 #EXTINF:-1 tvg-id="ArirangUN.kr" group-title="韩国新闻",Arirang TV UN
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BBSTV.kr" group-title="韩国新闻",BBS Buddhist Broadcasting
@@ -668,6 +669,7 @@ http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="BTNTV.kr" group-title="韩国新闻",BTN TV
 https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8
 #EXTINF:-1 group-title="韩国新闻",CGNTV
+http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8
 https://cgntvliveweb-998.acs.wecandeo.com/ms/2850/998/index.m3u8
 #EXTINF:-1 tvg-id="EBS1TV.kr" group-title="韩国新闻",EBS 1
 https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
@@ -772,6 +774,11 @@ http://202.60.106.14:21585/214/playlist.m3u8
 
 #EXTGRP:韩国电台
 #EXTINF:-1 group-title="韩国电台",Arirang FM
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+http://amdlive.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
+https://amdlive-ch02-ctnd-com.akamaized.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
 http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/chunklist_b528000_sleng.m3u8
 #EXTINF:-1 group-title="韩国电台",befm
 http://befm905.live.smilecdn.com:1935/befm905_live/live/playlist.m3u8
@@ -795,6 +802,8 @@ http://58.234.158.60:1935/efmlive/myStream/playlist.m3u8
 http://58.234.158.60:1935/fmlive/myStream/playlist.m3u8
 #EXTINF:-1 group-title="韩国电台",GugakFM
 https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/chunklist_w253831608.m3u8
+http://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8
+https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
 #EXTINF:-1 group-title="韩国电台",gukak
 http://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8
 #EXTINF:-1 group-title="韩国电台",http://211.221.46.79:1935/live/mp4:BusanMBC.Live-FM-0415/playlist.m3u8
