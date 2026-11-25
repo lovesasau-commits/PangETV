@@ -1,0 +1,5 @@
+# Media3 / ExoPlayer
+-dontwarn androidx.media3.**
+-keep class androidx.media3.** { *; }
+
+# 淇濈暀搴旂敤鑷繁鐨勬暟鎹被锛堥€氳繃 Intent 浼犲弬锛塡n-keep class com.sasau.pangetv.model.** { *; }
