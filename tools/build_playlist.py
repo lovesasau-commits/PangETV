@@ -9,6 +9,7 @@
     python tools/build_playlist.py [--cache-dir DIR] [--out FILE] [--offline]
 """
 import argparse
+import json
 import os
 import re
 import sys
@@ -222,14 +223,54 @@ def build(cache_dir, offline):
         for extra in KR_EXTRA_MIRRORS.get(norm_name(ch["name"]), []):
             if extra not in ch["urls"]:
                 ch["urls"].append(extra)
+    kr = apply_kr_patch(kr)
     groups.append(("韩国新闻", kr))
 
     # 5) 韩国电台
     radio = pick(parsed["radio"], lambda g: True, RADIO_DROP)
     radio = [e for e in radio if not RADIO_TV.search(e["name"])]
-    groups.append(("韩国电台", merge_mirrors(radio)))
+    radio = merge_mirrors(radio)
+    radio = apply_kr_patch(radio)
+    groups.append(("韩国电台", radio))
 
     return groups
+
+
+KR_PATCH_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                             "kr_mirrors.json")
+
+
+def apply_kr_patch(channels):
+    """用 tools/refresh_kr_mirrors.py 实测出来的可用地址覆盖韩台镜像。
+
+    该文件里只有**实测通过**的地址，所以覆盖后韩台的首选源必然是活的。
+    文件不存在时保持原样（不影响构建）。
+    """
+    if not os.path.exists(KR_PATCH_FILE):
+        return channels
+    try:
+        with open(KR_PATCH_FILE, encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:  # noqa: BLE001
+        print("  ! 读取 kr_mirrors.json 失败: %s" % e, file=sys.stderr)
+        return channels
+
+    mirrors = data.get("mirrors", {})
+    index = {norm_name(k): v for k, v in mirrors.items()}
+    hit = 0
+    for ch in channels:
+        live = index.get(norm_name(ch["name"]))
+        if not live:
+            continue
+        # 实测可用的排前面，原有镜像保留在后（别的网络环境可能仍然可用）
+        merged = list(live)
+        for u in ch["urls"]:
+            if u not in merged:
+                merged.append(u)
+        ch["urls"] = merged[:MAX_MIRRORS]
+        hit += 1
+    print("  · 已用实测可用镜像覆盖 %d 个韩台（来源 tools/kr_mirrors.json）" % hit)
+    return channels
 
 
 def dump(groups, out_path):
