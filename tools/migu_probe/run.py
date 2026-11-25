@@ -60,7 +60,11 @@ def main():
         print("找不到便携 JDK：%s" % TOOLCHAIN_JDK)
         return 3
 
-    r = subprocess.run([javac, "-encoding", "UTF-8", "-cp", cp, "-d", HERE,
+    # 编译产物放到 build/ 下（已在 .gitignore 里），不污染源码目录
+    out_dir = os.path.join(HERE, "build")
+    os.makedirs(out_dir, exist_ok=True)
+
+    r = subprocess.run([javac, "-encoding", "UTF-8", "-cp", cp, "-d", out_dir,
                         os.path.join(HERE, "MiguProbe.java")],
                        capture_output=True, text=True, encoding="utf-8", errors="replace")
     if r.returncode != 0:
@@ -68,7 +72,7 @@ def main():
         print(r.stderr)
         return 1
 
-    r = subprocess.run([java, "-Dstdout.encoding=UTF-8", "-cp", HERE + ";" + cp,
+    r = subprocess.run([java, "-Dstdout.encoding=UTF-8", "-cp", out_dir + ";" + cp,
                         "MiguProbe", url, referer],
                        capture_output=True, text=True, encoding="utf-8", errors="replace")
     print(r.stdout)
