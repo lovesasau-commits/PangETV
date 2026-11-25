@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">胖鹅TV</string>
+    <string name="search_hint">搜频道 / 台名 / 分组</string>
+    <string name="group_all">全部</string>
+    <string name="menu_reload">刷新列表</string>
+    <string name="menu_source">源设置</string>
+    <string name="menu_about">关于</string>
+    <string name="dlg_source_title">自定义播放列表 (M3U)</string>
+    <string name="dlg_source_hint">留空则使用内置列表</string>
+    <string name="action_save">保存</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_reset">恢复内置</string>
+    <string name="loading">正在加载频道…</string>
+    <string name="empty_list">没有找到频道</string>
+    <string name="now_playing">正在播放</string>
+    <string name="retry">重试</string>
+    <string name="next_source">换源</string>
+    <string name="about_body">胖鹅TV · 免费高清直播\n\n米咕体育 / 央视卫视 / 韩国新闻 / 韩国电台\n全部为公开免费直播源，播放质量取决于源站与本地网络。\n\n· 咪咕体育走运营商 CDN，国内可直连\n· 韩国频道为境外源，部分可能受地区限制\n· 源站会变，可在「源设置」里换成你自己的 M3U 列表\n\n版本 %s</string>
+</resources>
