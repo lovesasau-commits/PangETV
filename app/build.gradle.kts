@@ -35,7 +35,7 @@ android {
 
     kotlinOptions {
         jvmTarget = "17"
-        freeCompilerArgs = freeCompilerArgs + "-opt-in=androidx.media3.common.util.UnstableApi"
+        freeCompilerArgs.add("-opt-in=androidx.media3.common.util.UnstableApi")
     }
 
     buildFeatures {
