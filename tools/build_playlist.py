@@ -23,10 +23,24 @@ SOURCES = {
     "migu": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Migu.m3u",
     # 央视 / 卫视（含备用镜像）
     "cn": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/index.m3u",
+    # 央视 / 卫视：按平台自动清洗，每台带多路真实镜像
+    "ccsh": "https://raw.githubusercontent.com/CCSH/IPTV/main/live_lite.m3u",
     # 韩国电视
     "kr": "https://raw.githubusercontent.com/wujinfeng009/iptv/main/Korean.m3u",
     # 韩国电台
     "radio": "https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/allradio.net/Korea.m3u",
+}
+
+# 每个频道最多保留多少路镜像
+MAX_MIRRORS = 8
+
+CCTV_NAMES = {
+    "CCTV1": "CCTV-1 综合", "CCTV2": "CCTV-2 财经", "CCTV3": "CCTV-3 综艺",
+    "CCTV4": "CCTV-4 中文国际", "CCTV5": "CCTV-5 体育", "CCTV5+": "CCTV-5+ 体育赛事",
+    "CCTV6": "CCTV-6 电影", "CCTV7": "CCTV-7 国防军事", "CCTV8": "CCTV-8 电视剧",
+    "CCTV9": "CCTV-9 纪录", "CCTV10": "CCTV-10 科教", "CCTV12": "CCTV-12 社会与法",
+    "CCTV13": "CCTV-13 新闻", "CCTV14": "CCTV-14 少儿", "CCTV15": "CCTV-15 音乐",
+    "CCTV16": "CCTV-16 奥林匹克", "CCTV17": "CCTV-17 农业农村",
 }
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -146,8 +160,8 @@ def norm_name(name):
     return n.strip()
 
 
-def merge_mirrors(entries):
-    """同名频道合并成一条，多个地址按出现顺序排列。"""
+def merge_mirrors(entries, cap=MAX_MIRRORS):
+    """同名频道合并成一条，多个地址按出现顺序排列（最多 cap 路）。"""
     order, buckets = [], {}
     for e in entries:
         key = norm_name(e["name"])
@@ -159,7 +173,7 @@ def merge_mirrors(entries):
             order.append(key)
         b = buckets[key]
         for u in e["urls"]:
-            if u not in b["urls"]:
+            if u not in b["urls"] and len(b["urls"]) < cap:
                 b["urls"].append(u)
         if not b["referer"]:
             b["referer"] = e["referer"]
@@ -187,13 +201,18 @@ def build(cache_dir, offline):
                                         e["name"]))
     groups.append(("咪咕体育", merge_mirrors(migu)))
 
-    # 2) 央视高清（主 + 备用镜像）
-    cctv = [e for e in parsed["cn"] if e["group"] in ("央视高清", "央视备用")]
-    cctv = [e for e in cctv if re.search(r"CCTV|CGTN", e["name"])]
+    # 2) 央视新闻：CCSH 多镜像为主 + fanmingming 备用
+    cctv = [e for e in parsed["ccsh"] if e["group"] == "央视频道"
+            and re.match(r"^CGTN|^CCTV", e["name"])]
+    for e in cctv:
+        e["name"] = CCTV_NAMES.get(e["name"], e["name"])
+    cctv += [e for e in parsed["cn"] if e["group"] in ("央视高清", "央视备用")
+             and re.search(r"CCTV|CGTN", e["name"])]
     groups.append(("央视新闻", merge_mirrors(cctv)))
 
-    # 3) 卫视高清（主 + 备用镜像）
-    sats = [e for e in parsed["cn"] if e["group"] in ("卫视高清", "卫视备用")]
+    # 3) 卫视高清：CCSH 多镜像为主 + fanmingming 备用
+    sats = [e for e in parsed["ccsh"] if e["group"] == "卫视频道"]
+    sats += [e for e in parsed["cn"] if e["group"] in ("卫视高清", "卫视备用")]
     groups.append(("卫视高清", merge_mirrors(sats)))
 
     # 4) 韩国新闻
