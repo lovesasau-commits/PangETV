@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">胖鹅TV</string>
-    <string name="search_hint">搜频道 / 台名 / 分组</string>
-    <string name="group_all">全部</string>
+    <string name="search_hint">搜频道 / 台名</string>
     <string name="menu_reload">刷新列表</string>
     <string name="menu_source">源设置</string>
     <string name="menu_about">关于</string>
@@ -11,10 +10,14 @@
     <string name="action_save">保存</string>
     <string name="action_cancel">取消</string>
     <string name="action_reset">恢复内置</string>
+    <string name="action_ok">知道了</string>
     <string name="loading">正在加载频道…</string>
-    <string name="empty_list">没有找到频道</string>
+    <string name="empty_list">这个栏目暂时没有频道</string>
+    <string name="empty_search">没有找到匹配的频道</string>
+    <string name="group_info">%1$s · %2$d 个频道 · 遥控器左右键切换栏目，上下键进入列表</string>
+    <string name="group_info_search">搜索「%1$s」· %2$d 个结果（跨全部栏目）</string>
     <string name="now_playing">正在播放</string>
     <string name="retry">重试</string>
     <string name="next_source">换源</string>
-    <string name="about_body">胖鹅TV · 免费高清直播\n\n米咕体育 / 央视卫视 / 韩国新闻 / 韩国电台\n全部为公开免费直播源，播放质量取决于源站与本地网络。\n\n· 咪咕体育走运营商 CDN，国内可直连\n· 韩国频道为境外源，部分可能受地区限制\n· 源站会变，可在「源设置」里换成你自己的 M3U 列表\n\n版本 %s</string>
+    <string name="about_body">胖鹅TV · 免费高清直播\n\n六个栏目：常用 / 咪咕体育 / 赛事 / 中国新闻 / 韩国新闻 / 韩国电台。\n顶部就是频道分组入口，左右键切换。\n\n全部为公开免费直播源，播放质量取决于源站与本地网络。\n\n· 咪咕体育走运营商 CDN，国内可直连\n· 赛事栏是咪咕当天轮播的赛事台（乒乓球等直播常在这里）\n· 韩国频道为境外源，部分可能受地区限制\n· 源站会变，可在「源设置」里换成你自己的 M3U 列表\n\n版本 %s</string>
 </resources>

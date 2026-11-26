@@ -1,0 +1,670 @@
+﻿分组,频道,tvg-id,是否可用,命中地址,尝试数,状态码,响应摘要
+常用,CCTV-1 综合,CCTV1,否,,8,404,
+常用,CCTV-1 综合,CCTV1,否,,8,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,CCTV-1 综合,CCTV1,否,,8,0,TimeoutError: timed out
+常用,CCTV-1 综合,CCTV1,否,,8,200,sign error
+常用,CCTV-1 综合,CCTV1,否,,8,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+常用,CCTV-1 综合,CCTV1,否,,8,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+常用,CCTV-1 综合,CCTV1,否,,8,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+常用,CCTV-1 综合,CCTV1,是,http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009,8,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:17 #EXT-X-MEDIA-SEQUENCE:3254 #EXTINF:16.666667, 105/3254.ts #EXTINF:8.33"
+常用,CCTV-13 新闻,CCTV13,否,,7,404,
+常用,CCTV-13 新闻,CCTV13,否,,7,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,CCTV-13 新闻,CCTV13,否,,7,0,TimeoutError: timed out
+常用,CCTV-13 新闻,CCTV13,否,,7,200,sign error
+常用,CCTV-13 新闻,CCTV13,否,,7,200,sign error
+常用,CCTV-13 新闻,CCTV13,否,,7,200,sign error
+常用,CCTV-13 新闻,CCTV13,是,https://10.fast.hidns.vip/163189/cctv13/,7,200,#EXTM3U #EXT-X-VERSION:7 #EXT-X-STREAM-INF:BANDWIDTH=1000000 /163189/cctv13/video/index.php 
+常用,CCTV-4 中文国际,CCTV4,否,,7,404,
+常用,CCTV-4 中文国际,CCTV4,否,,7,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,CCTV-4 中文国际,CCTV4,否,,7,0,TimeoutError: timed out
+常用,CCTV-4 中文国际,CCTV4,否,,7,200,sign error
+常用,CCTV-4 中文国际,CCTV4,否,,7,200,sign error
+常用,CCTV-4 中文国际,CCTV4,否,,7,200,sign error
+常用,CCTV-4 中文国际,CCTV4,是,http://38.75.136.137:98/gslb/dsdqpub/cctv4hd.m3u8?auth=testpub,7,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:12 #EXT-X-MEDIA-SEQUENCE:14913 #EXTINF:6.966667, 102/14913.ts #EXTINF:12."
+常用,CCTV-2 财经,CCTV2,否,,6,404,
+常用,CCTV-2 财经,CCTV2,否,,6,0,gaierror: [Errno 11004] getaddrinfo failed
+常用,CCTV-2 财经,CCTV2,否,,6,0,TimeoutError: timed out
+常用,CCTV-2 财经,CCTV2,否,,6,200,sign error
+常用,CCTV-2 财经,CCTV2,否,,6,200,sign error
+常用,CCTV-2 财经,CCTV2,是,http://192.151.150.154/live/cctv2hd.m3u8,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:55790 #EXTINF:10.000000, cctv2md/segment_55790.t"
+常用,湖南卫视,湖南卫视,否,,6,404,
+常用,湖南卫视,湖南卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,湖南卫视,湖南卫视,否,,6,0,TimeoutError: timed out
+常用,湖南卫视,湖南卫视,否,,6,0,TimeoutError: timed out
+常用,湖南卫视,湖南卫视,否,,6,200,sign error
+常用,湖南卫视,湖南卫视,是,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8,6,200,"#EXTM3U #EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=225000 http://180.163.117.73/satellitepull.cnr.cn/live/wx32hunws/playl"
+常用,浙江卫视,浙江卫视,否,,2,404,
+常用,浙江卫视,浙江卫视,是,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8,2,200,#EXTM3U #EXT-X-VERSION:3 #EXT-X-MEDIA-SEQUENCE:359977910 #EXT-X-TARGETDURATION:8 #EXT-X-PROGRAM-DATE-TIME:2025-12-30T11:
+常用,东方卫视,东方卫视,否,,6,404,
+常用,东方卫视,东方卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,东方卫视,东方卫视,否,,6,0,TimeoutError: timed out
+常用,东方卫视,东方卫视,否,,6,0,TimeoutError: timed out
+常用,东方卫视,东方卫视,否,,6,200,sign error
+常用,东方卫视,东方卫视,是,https://iptv.catvod.com/catvod.php?id=dfws,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+常用,江苏卫视,江苏卫视,否,,6,404,
+常用,江苏卫视,江苏卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,江苏卫视,江苏卫视,否,,6,0,TimeoutError: timed out
+常用,江苏卫视,江苏卫视,否,,6,0,TimeoutError: timed out
+常用,江苏卫视,江苏卫视,否,,6,200,sign error
+常用,江苏卫视,江苏卫视,是,http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:14912 #EXTINF:8.333333, yss/segment_14912.ts #EXT"
+常用,北京卫视,北京卫视,否,,6,404,
+常用,北京卫视,北京卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,北京卫视,北京卫视,否,,6,0,TimeoutError: timed out
+常用,北京卫视,北京卫视,否,,6,0,TimeoutError: timed out
+常用,北京卫视,北京卫视,否,,6,200,sign error
+常用,北京卫视,北京卫视,是,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8,6,200,"#EXTM3U #EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=226000 http://180.163.117.73/satellitepull.cnr.cn/live/wxbtv/playlist."
+常用,广东卫视,广东卫视,否,,5,404,
+常用,广东卫视,广东卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,广东卫视,广东卫视,否,,5,0,TimeoutError: timed out
+常用,广东卫视,广东卫视,否,,5,0,TimeoutError: timed out
+常用,广东卫视,广东卫视,是,https://iptv.catvod.com/catvod.php?id=gdws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+常用,深圳卫视,深圳卫视,否,,5,404,
+常用,深圳卫视,深圳卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,深圳卫视,深圳卫视,否,,5,0,TimeoutError: timed out
+常用,深圳卫视,深圳卫视,否,,5,0,TimeoutError: timed out
+常用,深圳卫视,深圳卫视,是,https://iptv.catvod.com/catvod.php?id=szws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+常用,山东卫视,山东卫视,否,,6,404,
+常用,山东卫视,山东卫视,否,,6,0,gaierror: [Errno 11001] getaddrinfo failed
+常用,山东卫视,山东卫视,否,,6,0,TimeoutError: timed out
+常用,山东卫视,山东卫视,否,,6,0,TimeoutError: timed out
+常用,山东卫视,山东卫视,否,,6,200,sign error
+常用,山东卫视,山东卫视,是,https://iptv.catvod.com/catvod.php?id=sdws,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+常用,四川卫视,四川卫视,否,,5,404,
+常用,四川卫视,四川卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,四川卫视,四川卫视,否,,5,0,TimeoutError: timed out
+常用,四川卫视,四川卫视,否,,5,0,TimeoutError: timed out
+常用,四川卫视,四川卫视,是,https://iptv.catvod.com/catvod.php?id=scws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+常用,咪咕 4K 台 1,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000005180&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188384066 #EXTINF:6, 3000000010000005180_1500000_"
+常用,咪咕 4K 台 2,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015686&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:180987312 #EXTINF:10, 3000000010000015686_150000"
+常用,咪咕赛事台 01（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000005308&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188080005 #EXTINF:6, 3000000001000005308_1500000_"
+常用,咪咕赛事台 02（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000005969&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188078985 #EXTINF:6, 3000000001000005969_1500000_"
+常用,咪咕赛事台 03（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000007218&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188081263 #EXTINF:6, 3000000001000007218_1500000_"
+常用,咪咕 五星体育,,否,,2,0,ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+常用,咪咕 五星体育,,是,http://38.75.136.137:98/gslb/dsdqpub/wxtyhd.m3u8?auth=testpub,2,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:16 #EXT-X-MEDIA-SEQUENCE:14912 #EXTINF:7.480000, mkt/segment_14912.ts #EX"
+常用,咪咕 劲爆体育,,是,http://183.237.95.108:9901/tsfile/live/1074_1.m3u8?key=txiptv&playlive=0&authid=0,1,200,"#EXTM3U ##EXT-X-VERSION:3 #EXT-X-ALLOW-CACHE:YES #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:11477833 #EXTINF:5, no de"
+常用,咪咕 魅力足球,,否,,2,0,UnicodeEncodeError: 'ascii' codec can't encode characters in position 10-13: ordinal not in range(128)
+常用,咪咕 魅力足球,,是,http://1.192.243.163:8188/rtp/239.16.20.113:11130,2,200,"G�䱯��$� ��/#����ƭ��1]��UǨ8��?�o� �Sp�%-����Φ�a�]�r��A1m��� @��^�*OGgD�0`	.`|�� �)�,	-Wo����|ZU�\Ik�5��"
+常用,咪咕 全民热练,,是,http://gslbserv.itv.cmvideo.cn/3000000020000031315/1.m3u8?channel-id=FifastbLive&Contentid=3000000020000031315&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565303 #EXTINF:10, 3000000020000031315_150000"
+常用,咪咕 睛彩竞技,睛彩竞技,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011528&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179567401 #EXTINF:10, 3000000020000011528_150000"
+常用,咪咕 睛彩篮球,睛彩篮球,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011529&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179567402 #EXTINF:10, 3000000020000011529_150000"
+常用,咪咕 游戏风云,,否,,5,200,sign error
+常用,咪咕 游戏风云,,否,,5,0,UnicodeEncodeError: 'ascii' codec can't encode characters in position 10-13: ordinal not in range(128)
+常用,咪咕 游戏风云,,否,,5,200,sign error
+常用,咪咕 游戏风云,,否,,5,403,"{""code"":""40310014"",""msg"":""invalid Referer header""}"
+常用,咪咕 游戏风云,,是,http://1.192.243.163:8188/rtp/239.16.20.112:11120,5,200,"Gۭ����z��Yr1�' Ƙ�e�e~�
+���s}�^���4�����QO�""��yb�7�]����� Gk��B�sH5U�cp}�ɿֿfq�,s ��.��Nǀ�/��/h���L��QI��"
+常用,CCTV-5 体育,CCTV5,否,,9,404,
+常用,CCTV-5 体育,CCTV5,否,,9,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+常用,CCTV-5 体育,CCTV5,否,,9,0,TimeoutError: timed out
+常用,CCTV-5 体育,CCTV5,否,,9,200,sign error
+常用,CCTV-5 体育,CCTV5,否,,9,200,sign error
+常用,CCTV-5 体育,CCTV5,否,,9,200,sign error
+常用,CCTV-5 体育,CCTV5,否,,9,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+常用,CCTV-5 体育,CCTV5,否,,9,200,the channel is not exist
+常用,CCTV-5 体育,CCTV5,是,http://74.91.26.218:82/live/cctv5hd.m3u8,9,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:17 #EXT-X-MEDIA-SEQUENCE:14914 #EXTINF:8.333333, yss/segment_14914.ts #EX"
+常用,CCTV-5+ 体育赛事,CCTV5+,否,,5,404,
+常用,CCTV-5+ 体育赛事,CCTV5+,否,,5,0,TimeoutError: timed out
+常用,CCTV-5+ 体育赛事,CCTV5+,否,,5,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+常用,CCTV-5+ 体育赛事,CCTV5+,否,,5,200,the channel is not exist
+常用,CCTV-5+ 体育赛事,CCTV5+,是,http://74.91.26.218:82/live/cctv5p.m3u8,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:12 #EXT-X-MEDIA-SEQUENCE:14913 #EXTINF:6.966667, 102/14913.ts #EXTINF:12."
+常用,CCTV-16 奥林匹克,CCTV16,否,,5,404,
+常用,CCTV-16 奥林匹克,CCTV16,否,,5,0,TimeoutError: timed out
+常用,CCTV-16 奥林匹克,CCTV16,否,,5,200,sign error
+常用,CCTV-16 奥林匹克,CCTV16,否,,5,200,sign error
+常用,CCTV-16 奥林匹克,CCTV16,是,http://74.91.26.218:82/live/cctv16hd.m3u8,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:16 #EXT-X-MEDIA-SEQUENCE:14913 #EXTINF:16.240000, mkt/segment_14913.ts #E"
+常用,Arirang TV,ArirangTV.kr,是,http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=656000,RESOLUTION=640x360 chunklist_b656000_sleng.m3u8 #EXT-X-STREA"
+常用,TV Chosun,TVChosun.kr,是,http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=5404483,CODECS=""avc1.42c029,mp4a.40.2"",RESOLUTION=1280x720 chunklis"
+常用,TV Chosun 2,TVChosun2.kr,是,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2777667,CODECS=""avc1.42c029,mp4a.40.2"",RESOLUTION=1280x720 chunklis"
+常用,TBS Seoul,TBSTV.kr,是,https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=4692000,AVERAGE-BANDWIDTH=4692000,CODECS=""avc1.640828,mp4a.40.2"",RE"
+常用,GCN24 Korean,GCN.kr,是,http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1462272,CODECS=""avc1.640020,mp4a.40.2"" chunklist.m3u8 "
+常用,RUTC TV,RUTCTV.kr,是,http://d26sxnc75smwvh.cloudfront.net/livehttporigin/rutclive_720p2.stream/playlist.m3u8,1,200,#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=250000 chunklist.m3u8 
+常用,OUN,OUN.kr,是,https://live.knou.ac.kr/knou1/live1/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2128000,CODECS=""avc1.4d4028,mp4a.40.2"" chunklist.m3u8?solsessionid="
+常用,BTN TV,BTNTV.kr,是,https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2345548,CODECS=""avc1.42001e,mp4a.40.2"",RESOLUTION=1920x1080 chunkli"
+常用,FGTV,FGTV.kr,是,https://fgtvlive.fgtv.com/smil:fgtv.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1128000,RESOLUTION=1280x720 chunklist_b1128000.m3u8 #EXT-X-STREAM-I"
+常用,NHTV,NHTV.kr,是,http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2223245,CODECS=""avc1.64001f,mp4a.40.2"",RESOLUTION=1280x720 http://2"
+常用,SBS JTV,HLDQDTV.kr,是,http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=851865,CODECS=""avc1.42c01e,mp4a.40.2"",RESOLUTION=720x406 chunklist_"
+常用,SBS CJB,HLDRDTV.kr,否,,1,403,
+常用,BBS Buddhist Broadcasting,BBSTV.kr,是,http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2252394,CODECS=""avc1.77.41,mp4a.40.2"",RESOLUTION=1920x1080 chunklis"
+常用,KBS LiveCam DokDo,KBSLiveCamDokDo.kr,是,http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3  #EXT-X-STREAM-INF:BANDWIDTH=501349,AVERAGE-BANDWIDTH=498072,RESOLUTION=960x540,FRAME-RATE=30.0"
+常用,National Assembly TV,NationalAssemblyTV.kr,否,,1,404,"        <!DOCTYPE html> <html   lang=""en""      data-color-mode=""auto"" data-light-theme=""light"" data-dark-theme=""dark""   "
+常用,NBS Korea Agricultural Broadcasting,NBS.kr,是,https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1479152,CODECS=""avc1.77.32,mp4a.40.2"",RESOLUTION=1280x720 chunklist"
+常用,MBC Andong (안동 MBC),HLAWDTV.kr,是,http://andong.webcasting.co.kr/live/mbc/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=250000 chunklist_w985135637.m3u8 "
+常用,MBC Chungbuk (MBC 충북),HLAODTV.kr,是,http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=3557712,CODECS=""avc1.66.30,mp4a.40.2"",RESOLUTION=1280x720 chunklist"
+常用,Arirang FM,,是,http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=656000,RESOLUTION=640x360 chunklist_b656000_sleng.m3u8 #EXT-X-STREA"
+常用,GugakFM,,是,https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/chunklist_w253831608.m3u8,1,200,#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:11 #EXT-X-MEDIA-SEQUENCE:67425 #EXT-X-DISCONTINUITY-SEQUENCE:0 #EXTINF:9.
+常用,TBN 교통방송,,是,http://radio2.tbn.or.kr:1935/gyeongin/myStream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=98604,CODECS=""mp4a.40.2"" chunklist_w505420455.m3u8 "
+常用,TBN 울산교통방송,,是,http://radio2.tbn.or.kr:1935/ulsan/myStream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=98534,CODECS=""mp4a.40.2"" chunklist_w915951537.m3u8 "
+常用,MBC충북 FM4U,,是,http://211.33.246.4:32954/radio_fm/myStream.sdp/chunklist_w348337231.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-ALLOW-CACHE:NO #EXT-X-TARGETDURATION:11 #EXT-X-MEDIA-SEQUENCE:904572 #EXTINF:9.984, medi"
+常用,MBC충북 표준FM,,是,http://211.33.246.4:32954/radio_stfm/myStream.sdp/chunklist_w392819215.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-ALLOW-CACHE:NO #EXT-X-TARGETDURATION:11 #EXT-X-MEDIA-SEQUENCE:271685 #EXTINF:9.985, medi"
+常用,마포FM,,是,http://115.85.182.39/mapofm?type=.mp3,1,200,"��p�����/I�;C	�e�8�_@�� ����!]^Bt�0D`L*nQ���լ(3�K��2-gR�Ux�ʩN`8Lq�I,*�ƮP� $z�Pw!uq fQ.� ��r�w�g*]D�@��w"
+常用,안동MBC AM,,是,http://andong.webcasting.co.kr:1935/live/amlive/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=36633,CODECS=""mp4a.40.2"" chunklist_w1509377423.m3u8 "
+常用,befm,,是,http://befm905.live.smilecdn.com:1935/befm905_live/live/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=189331,CODECS=""avc1.640015,mp4a.40.2"",RESOLUTION=424x240 chunklist_"
+常用,CBS Music FM,,否,,1,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+常用,JTV 매직FM,,是,https://61ff3340258d2.streamlock.net/jtv_radio/myStream/chunklist_w111659793.m3u8,1,200,#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:11 #EXT-X-MEDIA-SEQUENCE:593711 #EXT-X-DISCONTINUITY-SEQUENCE:1 #EXTINF:9
+咪咕体育,咪咕 睛彩广场舞,睛彩广场舞,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011523&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179567413 #EXTINF:10, 3000000020000011523_150000"
+咪咕体育,咪咕 睛彩青少,睛彩少年,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011525&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179567395 #EXTINF:10, 3000000020000011525_150000"
+咪咕体育,咪咕 睛彩竞技,睛彩竞技,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011528&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179567402 #EXTINF:10, 3000000020000011528_150000"
+咪咕体育,咪咕 睛彩篮球,睛彩篮球,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011529&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179567403 #EXTINF:10, 3000000020000011529_150000"
+咪咕体育,咪咕 4K 台 1,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000005180&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188384069 #EXTINF:6, 3000000010000005180_1500000_"
+咪咕体育,咪咕 4K 台 2,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015686&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:180987313 #EXTINF:10, 3000000010000015686_150000"
+咪咕体育,咪咕 全民热练,,是,http://gslbserv.itv.cmvideo.cn/3000000020000031315/1.m3u8?channel-id=FifastbLive&Contentid=3000000020000031315&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565304 #EXTINF:10, 3000000020000031315_150000"
+咪咕体育,咪咕 中国功夫,,否,,1,0,TimeoutError: timed out
+咪咕体育,咪咕 哒啵赛事,,否,,1,0,TimeoutError: timed out
+咪咕体育,咪咕 武搏世界,,否,,1,0,TimeoutError: timed out
+咪咕体育,咪咕 精品体育,,否,,2,0,TimeoutError: timed out
+咪咕体育,咪咕 精品体育,,是,https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8,2,200,"#EXTM3U #EXT-X-STREAM-INF:BANDWIDTH=4000000,RESOLUTION=1920x1080 http://files4.ott.pm/media/video/nosignal_h264/playlist"
+咪咕体育,咪咕 超级体育,,否,,1,0,TimeoutError: timed out
+咪咕体育,咪咕 五星体育,,否,,2,0,ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+咪咕体育,咪咕 五星体育,,是,http://38.75.136.137:98/gslb/dsdqpub/wxtyhd.m3u8?auth=testpub,2,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:3255 #EXTINF:8.333333, 105/3255.ts #EXTINF:8.3333"
+咪咕体育,咪咕 劲爆体育,,是,http://183.237.95.108:9901/tsfile/live/1074_1.m3u8?key=txiptv&playlive=0&authid=0,1,200,"#EXTM3U ##EXT-X-VERSION:3 #EXT-X-ALLOW-CACHE:YES #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:11477836 #EXTINF:5, no de"
+咪咕体育,咪咕 体育,,否,,1,0,TimeoutError: timed out
+咪咕体育,广东体育,,否,,2,0,TimeoutError: timed out
+咪咕体育,广东体育,,是,http://r.jdshipin.com/LiYdg,2,200,#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:7 #EXT-X-MEDIA-SEQUENCE:73109105 #EXT-X-DISCONTINUITY #EXT-X-PROGRAM-DATE
+咪咕体育,咪咕 足球频道,,是,https://epg.pw/stream/c7df950876e6a1ceb8be74ee86f9f702cebbbae29f1d15124ef8f86fd43161cf.m3u8,1,200,"#EXTM3U #EXT-X-STREAM-INF:BANDWIDTH=4000000,RESOLUTION=1920x1080 http://files4.ott.pm/media/video/nosignal_h264/playlist"
+咪咕体育,辽宁体育,,否,,2,0,TimeoutError: timed out
+咪咕体育,辽宁体育,,是,http://120.76.248.139/live/bfgd/4200000611.m3u8,2,200,"#EXTM3U
+ #EXT-X-VERSION:3
+ #EXT-X-TARGETDURATION:6
+ #EXT-X-MEDIA-SEQUENCE:3381172
+ #EXTINF:5.000000,
+ http://httplive.sl"
+咪咕体育,咪咕 魅力足球,,否,,2,0,UnicodeEncodeError: 'ascii' codec can't encode characters in position 10-13: ordinal not in range(128)
+咪咕体育,咪咕 魅力足球,,是,http://1.192.243.163:8188/rtp/239.16.20.113:11130,2,200,"G��
+�c�_b�#�4�m&�����A�<̯���`����Wل����YA?��w�]�bj�.w`���^��C�ҎBD����o`��ێ�ih���{���Y�8Sq�i^���>� O�+UT|�"
+咪咕体育,咪咕 游戏风云,,否,,5,200,sign error
+咪咕体育,咪咕 游戏风云,,否,,5,0,UnicodeEncodeError: 'ascii' codec can't encode characters in position 10-13: ordinal not in range(128)
+咪咕体育,咪咕 游戏风云,,否,,5,200,sign error
+咪咕体育,咪咕 游戏风云,,否,,5,403,"{""code"":""40310014"",""msg"":""invalid Referer header""}"
+咪咕体育,咪咕 游戏风云,,是,http://1.192.243.163:8188/rtp/239.16.20.112:11120,5,200,G����R��s��A`8A�Է���P T�ů�j/�$�{�ta		��y��2�)%�|\�]�Trm�X�e��?n� 3 �v����R��h~C��������\g�J_n��V�X����
+赛事,咪咕赛事台 01（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000005308&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188080008 #EXTINF:6, 3000000001000005308_1500000_"
+赛事,咪咕赛事台 02（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000005969&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188078988 #EXTINF:6, 3000000001000005969_1500000_"
+赛事,咪咕赛事台 03（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000007218&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188081265 #EXTINF:6, 3000000001000007218_1500000_"
+赛事,咪咕赛事台 04（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn//index.m3u8?channel-id=FifastbLive&Contentid=3000000001000008001&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188088162 #EXTINF:6, 3000000001000008001_1500000_"
+赛事,咪咕赛事台 05（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000008176&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188087497 #EXTINF:6, 3000000001000008176_1500000_"
+赛事,咪咕赛事台 06（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000008379&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188088370 #EXTINF:6, 3000000001000008379_1500000_"
+赛事,咪咕赛事台 07（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000010129&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188098294 #EXTINF:6, 3000000001000010129_1500000_"
+赛事,咪咕赛事台 08（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000010948&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188084339 #EXTINF:6, 3000000001000010948_1500000_"
+赛事,咪咕赛事台 09（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000028638&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188454098 #EXTINF:6, 3000000001000028638_1500000_"
+赛事,咪咕赛事台 10（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000031494&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188088515 #EXTINF:6, 3000000001000031494_1500000_"
+赛事,咪咕赛事台 11（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000000097&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184475042 #EXTINF:6, 3000000010000000097_1500000_"
+赛事,咪咕赛事台 12（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000002019&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565303 #EXTINF:10, 3000000010000002019_150000"
+赛事,咪咕赛事台 13（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000002809&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184474304 #EXTINF:6, 3000000010000002809_1500000_"
+赛事,咪咕赛事台 14（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000003915&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184475121 #EXTINF:6, 3000000010000003915_1500000_"
+赛事,咪咕赛事台 15（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000004193&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184475867 #EXTINF:6, 3000000010000004193_1500000_"
+赛事,咪咕赛事台 16（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000005837&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565303 #EXTINF:10, 3000000010000005837_150000"
+赛事,咪咕赛事台 17（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000006077&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184475374 #EXTINF:6, 3000000010000006077_1500000_"
+赛事,咪咕赛事台 18（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000006658&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184475449 #EXTINF:6, 3000000010000006658_1500000_"
+赛事,咪咕赛事台 19（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000009788&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565303 #EXTINF:10, 3000000010000009788_150000"
+赛事,咪咕赛事台 20（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000010833&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:181653195 #EXTINF:6, 3000000010000010833_1500000_"
+赛事,咪咕赛事台 21（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000011297&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184475320 #EXTINF:6, 3000000010000011297_1500000_"
+赛事,咪咕赛事台 22（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000011518&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179617423 #EXTINF:10, 3000000010000011518_150000"
+赛事,咪咕赛事台 23（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000012558&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184475334 #EXTINF:6, 3000000010000012558_1500000_"
+赛事,咪咕赛事台 24（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000012616&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565303 #EXTINF:10, 3000000010000012616_150000"
+赛事,咪咕赛事台 25（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015470&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565303 #EXTINF:10, 3000000010000015470_150000"
+赛事,咪咕赛事台 26（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015560&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184475287 #EXTINF:6, 3000000010000015560_1500000_"
+赛事,咪咕赛事台 27（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000019839&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565303 #EXTINF:10, 3000000010000019839_150000"
+赛事,咪咕赛事台 28（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000021904&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184475371 #EXTINF:6, 3000000010000021904_1500000_"
+赛事,咪咕赛事台 29（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000023434&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:188536263 #EXTINF:6, 3000000010000023434_1500000_"
+赛事,咪咕赛事台 30（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000025380&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:181652684 #EXTINF:6, 3000000010000025380_1500000_"
+赛事,咪咕赛事台 31（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000027691&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:184475713 #EXTINF:6, 3000000010000027691_1500000_"
+赛事,咪咕赛事台 32（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011518&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565303 #EXTINF:10, 3000000020000011518_150000"
+赛事,咪咕赛事台 33（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011519&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565304 #EXTINF:10, 3000000020000011519_150000"
+赛事,咪咕赛事台 34（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011520&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565304 #EXTINF:10, 3000000020000011520_150000"
+赛事,咪咕赛事台 35（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011521&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565303 #EXTINF:10, 3000000020000011521_150000"
+赛事,咪咕赛事台 36（赛事轮播）,咪咕体育,是,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011522&livemode=1&stbId=YanG-1989,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:179565303 #EXTINF:10, 3000000020000011522_150000"
+赛事,CCTV-5 体育,CCTV5,否,,9,404,
+赛事,CCTV-5 体育,CCTV5,否,,9,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+赛事,CCTV-5 体育,CCTV5,否,,9,0,TimeoutError: timed out
+赛事,CCTV-5 体育,CCTV5,否,,9,200,sign error
+赛事,CCTV-5 体育,CCTV5,否,,9,200,sign error
+赛事,CCTV-5 体育,CCTV5,否,,9,200,sign error
+赛事,CCTV-5 体育,CCTV5,否,,9,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+赛事,CCTV-5 体育,CCTV5,否,,9,200,the channel is not exist
+赛事,CCTV-5 体育,CCTV5,是,http://74.91.26.218:82/live/cctv5hd.m3u8,9,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:12 #EXT-X-MEDIA-SEQUENCE:23141 #EXTINF:8.960000, cctv5/segment_23141.ts #"
+赛事,CCTV-5+ 体育赛事,CCTV5+,否,,5,404,
+赛事,CCTV-5+ 体育赛事,CCTV5+,否,,5,0,TimeoutError: timed out
+赛事,CCTV-5+ 体育赛事,CCTV5+,否,,5,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+赛事,CCTV-5+ 体育赛事,CCTV5+,否,,5,200,the channel is not exist
+赛事,CCTV-5+ 体育赛事,CCTV5+,是,http://74.91.26.218:82/live/cctv5p.m3u8,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:9 #EXT-X-MEDIA-SEQUENCE:14914 #EXTINF:8.080000, mkt/segment_14914.ts #EXT"
+赛事,CCTV-16 奥林匹克,CCTV16,否,,5,404,
+赛事,CCTV-16 奥林匹克,CCTV16,否,,5,0,TimeoutError: timed out
+赛事,CCTV-16 奥林匹克,CCTV16,否,,5,200,sign error
+赛事,CCTV-16 奥林匹克,CCTV16,否,,5,200,sign error
+赛事,CCTV-16 奥林匹克,CCTV16,是,http://74.91.26.218:82/live/cctv16hd.m3u8,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:29418 #EXTINF:10.000000, cctv16/segment_29418.ts"
+中国新闻,CCTV-1 综合,CCTV1,否,,8,404,
+中国新闻,CCTV-1 综合,CCTV1,否,,8,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-1 综合,CCTV1,否,,8,0,TimeoutError: timed out
+中国新闻,CCTV-1 综合,CCTV1,否,,8,200,sign error
+中国新闻,CCTV-1 综合,CCTV1,否,,8,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+中国新闻,CCTV-1 综合,CCTV1,否,,8,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+中国新闻,CCTV-1 综合,CCTV1,否,,8,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+中国新闻,CCTV-1 综合,CCTV1,是,http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009,8,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:20670 #EXTINF:10.000000, cctv1md/segment_20670.t"
+中国新闻,CCTV-2 财经,CCTV2,否,,6,404,
+中国新闻,CCTV-2 财经,CCTV2,否,,6,0,gaierror: [Errno 11004] getaddrinfo failed
+中国新闻,CCTV-2 财经,CCTV2,否,,6,0,TimeoutError: timed out
+中国新闻,CCTV-2 财经,CCTV2,否,,6,200,sign error
+中国新闻,CCTV-2 财经,CCTV2,否,,6,200,sign error
+中国新闻,CCTV-2 财经,CCTV2,是,http://192.151.150.154/live/cctv2hd.m3u8,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:55794 #EXTINF:10.000000, cctv2md/segment_55794.t"
+中国新闻,CCTV-3 综艺,CCTV3,否,,6,404,
+中国新闻,CCTV-3 综艺,CCTV3,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-3 综艺,CCTV3,否,,6,0,TimeoutError: timed out
+中国新闻,CCTV-3 综艺,CCTV3,否,,6,200,sign error
+中国新闻,CCTV-3 综艺,CCTV3,否,,6,200,sign error
+中国新闻,CCTV-3 综艺,CCTV3,是,http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:311467 #EXTINF:10.000000, cctv3md/segment_311467"
+中国新闻,CCTV-4 中文国际,CCTV4,否,,7,404,
+中国新闻,CCTV-4 中文国际,CCTV4,否,,7,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-4 中文国际,CCTV4,否,,7,0,TimeoutError: timed out
+中国新闻,CCTV-4 中文国际,CCTV4,否,,7,200,sign error
+中国新闻,CCTV-4 中文国际,CCTV4,否,,7,200,sign error
+中国新闻,CCTV-4 中文国际,CCTV4,否,,7,200,sign error
+中国新闻,CCTV-4 中文国际,CCTV4,是,http://38.75.136.137:98/gslb/dsdqpub/cctv4hd.m3u8?auth=testpub,7,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:17 #EXT-X-MEDIA-SEQUENCE:3257 #EXTINF:8.333333, 105/3257.ts #EXTINF:8.333"
+中国新闻,CCTV-6 电影,CCTV6,否,,6,404,
+中国新闻,CCTV-6 电影,CCTV6,否,,6,403,
+中国新闻,CCTV-6 电影,CCTV6,否,,6,0,TimeoutError: timed out
+中国新闻,CCTV-6 电影,CCTV6,否,,6,200,sign error
+中国新闻,CCTV-6 电影,CCTV6,否,,6,200,sign error
+中国新闻,CCTV-6 电影,CCTV6,是,https://piccpndali.v.myalicdn.com/audio/cctv6_2.m3u8,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-MEDIA-SEQUENCE:15003810 #EXT-X-TARGETDURATION:11 #EXTINF:10.005, cctv6_audio/1795653043_"
+中国新闻,CCTV-7 国防军事,CCTV7,否,,5,404,
+中国新闻,CCTV-7 国防军事,CCTV7,否,,5,0,TimeoutError: timed out
+中国新闻,CCTV-7 国防军事,CCTV7,否,,5,200,sign error
+中国新闻,CCTV-7 国防军事,CCTV7,否,,5,200,sign error
+中国新闻,CCTV-7 国防军事,CCTV7,是,http://38.75.136.137:98/gslb/dsdqbv/cctv7hd.m3u8?auth=test20251009,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:19165 #EXTINF:10.000000, cctv7md/segment_19165.t"
+中国新闻,CCTV-8 电视剧,CCTV8,否,,6,404,
+中国新闻,CCTV-8 电视剧,CCTV8,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-8 电视剧,CCTV8,否,,6,0,TimeoutError: timed out
+中国新闻,CCTV-8 电视剧,CCTV8,否,,6,200,sign error
+中国新闻,CCTV-8 电视剧,CCTV8,否,,6,200,sign error
+中国新闻,CCTV-8 电视剧,CCTV8,是,http://38.75.136.137:98/gslb/dsdqbv/cctv8hd.m3u8?auth=test20251009,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:20304 #EXTINF:10.000000, cctv8md/segment_20304.t"
+中国新闻,CCTV-9 纪录,CCTV9,否,,7,404,
+中国新闻,CCTV-9 纪录,CCTV9,否,,7,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-9 纪录,CCTV9,否,,7,0,TimeoutError: timed out
+中国新闻,CCTV-9 纪录,CCTV9,否,,7,200,sign error
+中国新闻,CCTV-9 纪录,CCTV9,否,,7,200,sign error
+中国新闻,CCTV-9 纪录,CCTV9,否,,7,200,sign error
+中国新闻,CCTV-9 纪录,CCTV9,是,http://38.75.136.137:98/gslb/dsdqpub/cctv9hd.m3u8?auth=testpub,7,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:12 #EXT-X-MEDIA-SEQUENCE:35012 #EXTINF:9.240000, cctv9/segment_35012.ts #"
+中国新闻,CCTV-10 科教,CCTV10,否,,7,404,
+中国新闻,CCTV-10 科教,CCTV10,否,,7,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-10 科教,CCTV10,否,,7,0,TimeoutError: timed out
+中国新闻,CCTV-10 科教,CCTV10,否,,7,200,sign error
+中国新闻,CCTV-10 科教,CCTV10,否,,7,200,sign error
+中国新闻,CCTV-10 科教,CCTV10,否,,7,200,sign error
+中国新闻,CCTV-10 科教,CCTV10,是,http://38.75.136.137:98/gslb/dsdqpub/cctv10hd.m3u8?auth=testpub,7,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:11 #EXT-X-MEDIA-SEQUENCE:55791 #EXTINF:10.360000, cctv10/segment_55791.ts"
+中国新闻,CCTV-11 戏曲,CCTV11,否,,7,404,
+中国新闻,CCTV-11 戏曲,CCTV11,否,,7,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-11 戏曲,CCTV11,否,,7,0,TimeoutError: timed out
+中国新闻,CCTV-11 戏曲,CCTV11,否,,7,200,sign error
+中国新闻,CCTV-11 戏曲,CCTV11,否,,7,200,sign error
+中国新闻,CCTV-11 戏曲,CCTV11,否,,7,200,sign error
+中国新闻,CCTV-11 戏曲,CCTV11,是,http://38.75.136.137:98/gslb/dsdqpub/cctv11hd.m3u8?auth=testpub,7,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:17 #EXT-X-MEDIA-SEQUENCE:3258 #EXTINF:8.333333, 105/3258.ts #EXTINF:16.66"
+中国新闻,CCTV-12 社会与法,CCTV12,否,,6,404,
+中国新闻,CCTV-12 社会与法,CCTV12,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-12 社会与法,CCTV12,否,,6,0,TimeoutError: timed out
+中国新闻,CCTV-12 社会与法,CCTV12,否,,6,200,sign error
+中国新闻,CCTV-12 社会与法,CCTV12,否,,6,200,sign error
+中国新闻,CCTV-12 社会与法,CCTV12,是,http://38.75.136.137:98/gslb/dsdqpub/cctv12hd.m3u8?auth=testpub,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:12 #EXT-X-MEDIA-SEQUENCE:14916 #EXTINF:8.760000, mkt/segment_14916.ts #EX"
+中国新闻,CCTV-13 新闻,CCTV13,否,,7,404,
+中国新闻,CCTV-13 新闻,CCTV13,否,,7,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-13 新闻,CCTV13,否,,7,0,TimeoutError: timed out
+中国新闻,CCTV-13 新闻,CCTV13,否,,7,200,sign error
+中国新闻,CCTV-13 新闻,CCTV13,否,,7,200,sign error
+中国新闻,CCTV-13 新闻,CCTV13,否,,7,200,sign error
+中国新闻,CCTV-13 新闻,CCTV13,是,https://10.fast.hidns.vip/163189/cctv13/,7,200,#EXTM3U #EXT-X-VERSION:7 #EXT-X-STREAM-INF:BANDWIDTH=1000000 /163189/cctv13/video/index.php 
+中国新闻,CCTV-14 少儿,CCTV14,否,,7,404,
+中国新闻,CCTV-14 少儿,CCTV14,否,,7,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-14 少儿,CCTV14,否,,7,0,TimeoutError: timed out
+中国新闻,CCTV-14 少儿,CCTV14,否,,7,200,sign error
+中国新闻,CCTV-14 少儿,CCTV14,否,,7,200,sign error
+中国新闻,CCTV-14 少儿,CCTV14,否,,7,200,sign error
+中国新闻,CCTV-14 少儿,CCTV14,是,http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009,7,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:55795 #EXTINF:10.000000, cctv14md/segment_55795."
+中国新闻,CCTV-15 音乐,CCTV15,否,,7,404,
+中国新闻,CCTV-15 音乐,CCTV15,否,,7,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,CCTV-15 音乐,CCTV15,否,,7,0,TimeoutError: timed out
+中国新闻,CCTV-15 音乐,CCTV15,否,,7,200,sign error
+中国新闻,CCTV-15 音乐,CCTV15,否,,7,200,sign error
+中国新闻,CCTV-15 音乐,CCTV15,否,,7,200,sign error
+中国新闻,CCTV-15 音乐,CCTV15,是,http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009,7,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:20479 #EXTINF:10.000000, cctv15md/segment_20479."
+中国新闻,CCTV-17 农业农村,CCTV17,否,,5,404,
+中国新闻,CCTV-17 农业农村,CCTV17,否,,5,0,TimeoutError: timed out
+中国新闻,CCTV-17 农业农村,CCTV17,否,,5,200,sign error
+中国新闻,CCTV-17 农业农村,CCTV17,否,,5,200,sign error
+中国新闻,CCTV-17 农业农村,CCTV17,是,https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk,5,200,   ftypqt      qt     wide p9emdat! @h! @h! @h! @h! @h! @h! @h! @h! @h! @h! @h! @h! @h! @h
+中国新闻,北京卫视,北京卫视,否,,6,404,
+中国新闻,北京卫视,北京卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,北京卫视,北京卫视,否,,6,0,TimeoutError: timed out
+中国新闻,北京卫视,北京卫视,否,,6,0,TimeoutError: timed out
+中国新闻,北京卫视,北京卫视,否,,6,200,sign error
+中国新闻,北京卫视,北京卫视,是,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8,6,200,"#EXTM3U #EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=226000 http://180.163.117.73/satellitepull.cnr.cn/live/wxbtv/playlist."
+中国新闻,东方卫视,东方卫视,否,,6,404,
+中国新闻,东方卫视,东方卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,东方卫视,东方卫视,否,,6,0,TimeoutError: timed out
+中国新闻,东方卫视,东方卫视,否,,6,0,TimeoutError: timed out
+中国新闻,东方卫视,东方卫视,否,,6,200,sign error
+中国新闻,东方卫视,东方卫视,是,https://iptv.catvod.com/catvod.php?id=dfws,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,湖南卫视,湖南卫视,否,,6,404,
+中国新闻,湖南卫视,湖南卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,湖南卫视,湖南卫视,否,,6,0,TimeoutError: timed out
+中国新闻,湖南卫视,湖南卫视,否,,6,0,TimeoutError: timed out
+中国新闻,湖南卫视,湖南卫视,否,,6,200,sign error
+中国新闻,湖南卫视,湖南卫视,是,http://satellitepull.cnr.cn/live/wx32hunws/playlist.m3u8,6,200,"#EXTM3U #EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=221000 http://180.163.117.73/satellitepull.cnr.cn/live/wx32hunws/playl"
+中国新闻,江苏卫视,江苏卫视,否,,6,404,
+中国新闻,江苏卫视,江苏卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,江苏卫视,江苏卫视,否,,6,0,TimeoutError: timed out
+中国新闻,江苏卫视,江苏卫视,否,,6,0,TimeoutError: timed out
+中国新闻,江苏卫视,江苏卫视,否,,6,200,sign error
+中国新闻,江苏卫视,江苏卫视,是,http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:17 #EXT-X-MEDIA-SEQUENCE:14919 #EXTINF:8.333333, 102/segment_14919.ts #EX"
+中国新闻,浙江卫视,浙江卫视,否,,2,404,
+中国新闻,浙江卫视,浙江卫视,是,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8,2,200,#EXTM3U #EXT-X-VERSION:3 #EXT-X-MEDIA-SEQUENCE:359977910 #EXT-X-TARGETDURATION:8 #EXT-X-PROGRAM-DATE-TIME:2025-12-30T11:
+中国新闻,黑龙江卫视,黑龙江卫视,否,,5,404,
+中国新闻,黑龙江卫视,黑龙江卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,黑龙江卫视,黑龙江卫视,否,,5,0,TimeoutError: timed out
+中国新闻,黑龙江卫视,黑龙江卫视,否,,5,0,TimeoutError: timed out
+中国新闻,黑龙江卫视,黑龙江卫视,是,https://iptv.catvod.com/catvod.php?id=hljws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,吉林卫视,吉林卫视,否,,5,404,
+中国新闻,吉林卫视,吉林卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,吉林卫视,吉林卫视,否,,5,0,TimeoutError: timed out
+中国新闻,吉林卫视,吉林卫视,否,,5,0,TimeoutError: timed out
+中国新闻,吉林卫视,吉林卫视,是,https://iptv.catvod.com/catvod.php?id=jlws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,辽宁卫视,辽宁卫视,否,,6,404,
+中国新闻,辽宁卫视,辽宁卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,辽宁卫视,辽宁卫视,否,,6,0,TimeoutError: timed out
+中国新闻,辽宁卫视,辽宁卫视,否,,6,0,TimeoutError: timed out
+中国新闻,辽宁卫视,辽宁卫视,否,,6,200,sign error
+中国新闻,辽宁卫视,辽宁卫视,是,https://iptv.catvod.com/catvod.php?id=lnws,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,河北卫视,河北卫视,否,,5,404,
+中国新闻,河北卫视,河北卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,河北卫视,河北卫视,否,,5,0,TimeoutError: timed out
+中国新闻,河北卫视,河北卫视,否,,5,0,TimeoutError: timed out
+中国新闻,河北卫视,河北卫视,是,https://iptv.catvod.com/catvod.php?id=hbws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,天津卫视,天津卫视,否,,6,404,
+中国新闻,天津卫视,天津卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,天津卫视,天津卫视,否,,6,0,TimeoutError: timed out
+中国新闻,天津卫视,天津卫视,否,,6,0,TimeoutError: timed out
+中国新闻,天津卫视,天津卫视,否,,6,200,sign error
+中国新闻,天津卫视,天津卫视,是,https://iptv.catvod.com/catvod.php?id=tjws,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,山东卫视,山东卫视,否,,6,404,
+中国新闻,山东卫视,山东卫视,否,,6,0,gaierror: [Errno 11001] getaddrinfo failed
+中国新闻,山东卫视,山东卫视,否,,6,0,TimeoutError: timed out
+中国新闻,山东卫视,山东卫视,否,,6,0,TimeoutError: timed out
+中国新闻,山东卫视,山东卫视,否,,6,200,sign error
+中国新闻,山东卫视,山东卫视,是,https://iptv.catvod.com/catvod.php?id=sdws,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,安徽卫视,安徽卫视,否,,5,404,
+中国新闻,安徽卫视,安徽卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,安徽卫视,安徽卫视,否,,5,0,TimeoutError: timed out
+中国新闻,安徽卫视,安徽卫视,否,,5,0,TimeoutError: timed out
+中国新闻,安徽卫视,安徽卫视,是,https://iptv.catvod.com/catvod.php?id=ahws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,河南卫视,河南卫视,否,,6,404,
+中国新闻,河南卫视,河南卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,河南卫视,河南卫视,否,,6,0,TimeoutError: timed out
+中国新闻,河南卫视,河南卫视,否,,6,0,TimeoutError: timed out
+中国新闻,河南卫视,河南卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,河南卫视,河南卫视,是,https://iptv.catvod.com/catvod.php?id=hnws,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,湖北卫视,湖北卫视,否,,7,404,
+中国新闻,湖北卫视,湖北卫视,否,,7,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,湖北卫视,湖北卫视,否,,7,0,TimeoutError: timed out
+中国新闻,湖北卫视,湖北卫视,否,,7,0,TimeoutError: timed out
+中国新闻,湖北卫视,湖北卫视,否,,7,200,sign error
+中国新闻,湖北卫视,湖北卫视,否,,7,200,sign error
+中国新闻,湖北卫视,湖北卫视,是,https://iptv.catvod.com/catvod.php?id=hubws,7,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,江西卫视,江西卫视,否,,5,404,
+中国新闻,江西卫视,江西卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,江西卫视,江西卫视,否,,5,0,TimeoutError: timed out
+中国新闻,江西卫视,江西卫视,否,,5,0,TimeoutError: timed out
+中国新闻,江西卫视,江西卫视,是,https://iptv.catvod.com/catvod.php?id=jxws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,东南卫视,东南卫视,否,,6,404,
+中国新闻,东南卫视,东南卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,东南卫视,东南卫视,否,,6,0,TimeoutError: timed out
+中国新闻,东南卫视,东南卫视,否,,6,0,TimeoutError: timed out
+中国新闻,东南卫视,东南卫视,否,,6,200,sign error
+中国新闻,东南卫视,东南卫视,是,https://iptv.catvod.com/catvod.php?id=dnws,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,广东卫视,广东卫视,否,,5,404,
+中国新闻,广东卫视,广东卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,广东卫视,广东卫视,否,,5,0,TimeoutError: timed out
+中国新闻,广东卫视,广东卫视,否,,5,0,TimeoutError: timed out
+中国新闻,广东卫视,广东卫视,是,https://iptv.catvod.com/catvod.php?id=gdws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,深圳卫视,深圳卫视,否,,5,404,
+中国新闻,深圳卫视,深圳卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,深圳卫视,深圳卫视,否,,5,0,TimeoutError: timed out
+中国新闻,深圳卫视,深圳卫视,否,,5,0,TimeoutError: timed out
+中国新闻,深圳卫视,深圳卫视,是,https://iptv.catvod.com/catvod.php?id=szws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,广西卫视,广西卫视,否,,6,404,
+中国新闻,广西卫视,广西卫视,否,,6,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,广西卫视,广西卫视,否,,6,0,TimeoutError: timed out
+中国新闻,广西卫视,广西卫视,否,,6,0,TimeoutError: timed out
+中国新闻,广西卫视,广西卫视,否,,6,200,sign error
+中国新闻,广西卫视,广西卫视,是,https://iptv.catvod.com/catvod.php?id=gxws,6,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,海南卫视,海南卫视,否,,5,404,
+中国新闻,海南卫视,海南卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,海南卫视,海南卫视,否,,5,0,TimeoutError: timed out
+中国新闻,海南卫视,海南卫视,否,,5,0,TimeoutError: timed out
+中国新闻,海南卫视,海南卫视,是,http://38.75.136.137:98/gslb/dsdqpub/hinwshd.m3u8?auth=testpub,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:14921 #EXTINF:9.800000, mkt/segment_14921.ts #EX"
+中国新闻,四川卫视,四川卫视,否,,5,404,
+中国新闻,四川卫视,四川卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,四川卫视,四川卫视,否,,5,0,TimeoutError: timed out
+中国新闻,四川卫视,四川卫视,否,,5,0,TimeoutError: timed out
+中国新闻,四川卫视,四川卫视,是,https://iptv.catvod.com/catvod.php?id=scws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,重庆卫视,重庆卫视,否,,5,404,
+中国新闻,重庆卫视,重庆卫视,否,,5,0,TimeoutError: timed out
+中国新闻,重庆卫视,重庆卫视,否,,5,0,TimeoutError: timed out
+中国新闻,重庆卫视,重庆卫视,否,,5,200,sign error
+中国新闻,重庆卫视,重庆卫视,是,https://iptv.catvod.com/catvod.php?id=cqws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,贵州卫视,贵州卫视,否,,5,404,
+中国新闻,贵州卫视,贵州卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,贵州卫视,贵州卫视,否,,5,0,TimeoutError: timed out
+中国新闻,贵州卫视,贵州卫视,否,,5,0,TimeoutError: timed out
+中国新闻,贵州卫视,贵州卫视,是,https://iptv.catvod.com/catvod.php?id=gzws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,云南卫视,云南卫视,否,,5,404,
+中国新闻,云南卫视,云南卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,云南卫视,云南卫视,否,,5,0,TimeoutError: timed out
+中国新闻,云南卫视,云南卫视,否,,5,0,TimeoutError: timed out
+中国新闻,云南卫视,云南卫视,是,https://iptv.catvod.com/catvod.php?id=ynws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,陕西卫视,陕西卫视,否,,5,404,
+中国新闻,陕西卫视,陕西卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,陕西卫视,陕西卫视,否,,5,0,TimeoutError: timed out
+中国新闻,陕西卫视,陕西卫视,否,,5,0,TimeoutError: timed out
+中国新闻,陕西卫视,陕西卫视,是,https://iptv.catvod.com/catvod.php?id=sxws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,甘肃卫视,甘肃卫视,否,,5,404,
+中国新闻,甘肃卫视,甘肃卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,甘肃卫视,甘肃卫视,否,,5,0,TimeoutError: timed out
+中国新闻,甘肃卫视,甘肃卫视,否,,5,0,TimeoutError: timed out
+中国新闻,甘肃卫视,甘肃卫视,是,https://iptv.catvod.com/catvod.php?id=gsws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,三沙卫视,三沙卫视,否,,2,404,
+中国新闻,三沙卫视,三沙卫视,是,https://iptv.catvod.com/catvod.php?id=ssws,2,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,内蒙古卫视,内蒙古卫视,否,,5,403,
+中国新闻,内蒙古卫视,内蒙古卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,内蒙古卫视,内蒙古卫视,否,,5,0,TimeoutError: timed out
+中国新闻,内蒙古卫视,内蒙古卫视,否,,5,0,TimeoutError: timed out
+中国新闻,内蒙古卫视,内蒙古卫视,是,https://iptv.catvod.com/catvod.php?id=nmws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,青海卫视,青海卫视,否,,5,0,gaierror: [Errno 11001] getaddrinfo failed
+中国新闻,青海卫视,青海卫视,否,,5,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,青海卫视,青海卫视,否,,5,0,TimeoutError: timed out
+中国新闻,青海卫视,青海卫视,否,,5,0,TimeoutError: timed out
+中国新闻,青海卫视,青海卫视,是,https://iptv.catvod.com/catvod.php?id=qhws,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,延边卫视,延边卫视,否,,3,0,TimeoutError: timed out
+中国新闻,延边卫视,延边卫视,否,,3,0,TimeoutError: timed out
+中国新闻,延边卫视,延边卫视,是,http://sagrad.org:8181/3m1080p/ybws.m3u8,3,200,"{""error"":""\u9891\u9053 ybwshd \u6ca1\u6709\u914d\u7f6e\u4efb\u4f55\u670d\u52a1\u5668\u3002""}"
+中国新闻,CCTV-4K 超高清,,否,,2,0,TimeoutError: timed out
+中国新闻,CCTV-4K 超高清,,是,http://107.150.52.50:82/live/cctv4k.m3u8,2,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:20227 #EXTINF:9.440000, cctv4k/segment_20227.ts "
+中国新闻,宁夏卫视,,否,,4,403,"<!DOCTYPE html><html lang=""en""><head><meta charset=""UTF-8"" /><meta name=""viewport"" content=""width=device-width, initial-"
+中国新闻,宁夏卫视,,否,,4,0,TimeoutError: timed out
+中国新闻,宁夏卫视,,否,,4,0,TimeoutError: timed out
+中国新闻,宁夏卫视,,是,https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk,4,200,   ftypqt      qt     wide p9emdat! @h! @h! @h! @h! @h! @h! @h! @h! @h! @h! @h! @h! @h! @h
+中国新闻,新疆卫视,,否,,4,403,"<!DOCTYPE html> <html> 	<head> 		<meta charset=""utf-8""> 		<meta http-equiv=""X-UA-Compatible"" content=""IE=edge""> 		<meta "
+中国新闻,新疆卫视,,否,,4,0,TimeoutError: timed out
+中国新闻,新疆卫视,,否,,4,0,TimeoutError: timed out
+中国新闻,新疆卫视,,是,https://iptv.catvod.com/catvod.php?id=xjws,4,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,兵团卫视,,否,,3,403,
+中国新闻,兵团卫视,,否,,3,0,TimeoutError: timed out
+中国新闻,兵团卫视,,是,https://iptv.catvod.com/catvod.php?id=btws,3,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,CCTV-8K 超高清,,是,http://107.150.52.50:82/live/cctv8k.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:55806 #EXTINF:10.000000, cctv8k/segment_55806.ts"
+中国新闻,CETV-1,,否,,2,0,TimeoutError: timed out
+中国新闻,CETV-1,,是,http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub,2,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:17 #EXT-X-MEDIA-SEQUENCE:14924 #EXTINF:8.333333, yss/segment_14924.ts #EX"
+中国新闻,CETV-2,,否,,2,0,TimeoutError: timed out
+中国新闻,CETV-2,,是,http://175.24.134.198:1234/923287211,2,200,"#EXTM3U
+ #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2084544
+ 01.m3u8?msisdn=6d48b66a5b4d4a116068258cf9eb8154&mdspid=&spid="
+中国新闻,CETV-3,,是,http://192.151.150.154/live/cetv3.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:10 #EXT-X-MEDIA-SEQUENCE:2857 #EXTINF:10.000000, cetv3/segment_2857.ts #E"
+中国新闻,CETV-4,,否,,2,0,TimeoutError: timed out
+中国新闻,CETV-4,,是,http://175.24.134.198:1234/923287339,2,200,"#EXTM3U
+ #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2084544
+ 01.m3u8?msisdn=6d48b66a5b4d4a116068258cf9eb8154&mdspid=&spid="
+中国新闻,南方卫视,,是,http://120.198.95.220:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&down=1,1,200,#EXTM3U ##EXT-X-VERSION:3 #EXT-X-ALLOW-CACHE:YES #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:2098983 #EXT-X-PROGRAM-DA
+中国新闻,厦门卫视,,否,,2,0,TimeoutError: timed out
+中国新闻,厦门卫视,,是,https://iptv.catvod.com/catvod.php?id=xmws,2,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,山西卫视,,否,,3,0,TimeoutError: timed out
+中国新闻,山西卫视,,否,,3,0,TimeoutError: timed out
+中国新闻,山西卫视,,是,https://iptv.catvod.com/catvod.php?id=sxiws,3,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:8 #EXT-X-MEDIA-SEQUENCE:0 #EXTINF:8.333333, segment_000.ts #EXTINF:8.3333"
+中国新闻,西藏卫视,,否,,3,0,TimeoutError: timed out
+中国新闻,西藏卫视,,否,,3,0,TimeoutError: timed out
+中国新闻,西藏卫视,,是,http://38.75.136.137:98/gslb/dsdqpub/xzwshd.m3u8?auth=testpub,3,200,"{""error"":""\u9891\u9053 xzwshd \u6ca1\u6709\u914d\u7f6e\u4efb\u4f55\u670d\u52a1\u5668\u3002""}"
+中国新闻,香港卫视,,是,http://anren.live/HK/BSJDUFpB.m3u8,1,200,"<!doctype html> <html lang=""en""> <head> <meta charset=""utf-8""> <meta name=""viewport"" content=""width=device-width, initia"
+中国新闻,康巴卫视,,否,,5,0,TimeoutError: timed out
+中国新闻,康巴卫视,,否,,5,200,sign error
+中国新闻,康巴卫视,,否,,5,200,sign error
+中国新闻,康巴卫视,,否,,5,200,sign error
+中国新闻,康巴卫视,,是,http://110.185.237.164:8888/hls/30/index.m3u8,5,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-ALLOW-CACHE:YES #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:89485 #EXTINF:4.3, chunk_8"
+中国新闻,安多卫视,,否,,2,0,TimeoutError: timed out
+中国新闻,安多卫视,,是,http://39.164.143.66:13994/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0,2,200,"#EXTM3U ##EXT-X-VERSION:3 #EXT-X-ALLOW-CACHE:YES #EXT-X-TARGETDURATION:6 #EXT-X-MEDIA-SEQUENCE:21157338 #EXTINF:5, no de"
+中国新闻,大湾区卫视,,是,http://204.12.221.218:8181/3m1080p/nfws.m3u8,1,200,"{""error"":""\u9891\u9053 nfwshd \u6ca1\u6709\u914d\u7f6e\u4efb\u4f55\u670d\u52a1\u5668\u3002""}"
+中国新闻,农林卫视,,是,http://sagrad.org:8181/3m1080p/snnl.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:12 #EXT-X-MEDIA-SEQUENCE:6053 #EXTINF:12.000000, snnl/segment_6053.ts #EX"
+中国新闻,海峡卫视,,否,,2,0,TimeoutError: timed out
+中国新闻,海峡卫视,,是,https://10.fast.hidns.vip/163189/hxws/,2,200,#EXTM3U #EXT-X-VERSION:7 #EXT-X-STREAM-INF:BANDWIDTH=1000000 /163189/hxws/video/index.php 
+中国新闻,星空卫视,,是,https://cdn.iptv8k.top/dl/jrys.php?id=21&time=20240926215313&ip=111.229.253.40,1,200,"<!DOCTYPE html>
+ <html lang=""x-default"">
+ <head>
+     <meta charset=""UTF-8"">
+     <meta name=""viewport"" content=""width=d"
+韩国新闻,Arirang TV,ArirangTV.kr,是,http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=656000,RESOLUTION=640x360 chunklist_b656000_sleng.m3u8 #EXT-X-STREA"
+韩国新闻,Arirang TV UN,ArirangUN.kr,是,https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=656000,RESOLUTION=640x360 chunklist_b656000_sleng.m3u8 #EXT-X-STREA"
+韩国新闻,BBS Buddhist Broadcasting,BBSTV.kr,是,http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2230133,CODECS=""avc1.77.41,mp4a.40.2"",RESOLUTION=1920x1080 chunklis"
+韩国新闻,BTN TV,BTNTV.kr,是,https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2450122,CODECS=""avc1.42001e,mp4a.40.2"",RESOLUTION=1920x1080 chunkli"
+韩国新闻,CGNTV,,是,http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1462272,CODECS=""avc1.640020,mp4a.40.2"" chunklist.m3u8 "
+韩国新闻,Channel A,ChannelA.kr,否,,1,403,"<html>
+ <head><title>403 Forbidden</title></head>
+ <body>
+ <center><h1>403 Forbidden</h1></center>
+ <hr><center>KTCDN3.0"
+韩国新闻,CJ OnStyle,CJOnStyle.kr,是,https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2273654,CODECS=""avc1.64001f,mp4a.40.2"",RESOLUTION=960x540 chunklist"
+韩国新闻,CJ OnStyle Plus,CJOnStylePlus.kr,是,https://live-ch2.cjonstyle.net/cjosplus/live2/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1449534,CODECS=""avc1.64001e,mp4a.40.2"",RESOLUTION=720x400 chunklist"
+韩国新闻,CTS기독교TV,CTSTV.kr,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,EBS 1,EBS1TV.kr,否,,2,0,TimeoutError: timed out
+韩国新闻,EBS 1,EBS1TV.kr,否,,2,0,TimeoutError: timed out
+韩国新闻,EBS 2,EBS2TV.kr,否,,1,0,TimeoutError: timed out
+韩国新闻,EBS E,EBSEnglish.kr,否,,1,0,TimeoutError: timed out
+韩国新闻,EBS kids,EBSKids.kr,否,,1,0,TimeoutError: timed out
+韩国新闻,EBS+ 1,EBSPlus1.kr,否,,1,0,TimeoutError: timed out
+韩国新闻,EBS+ 2,EBSPlus2.kr,否,,1,0,TimeoutError: timed out
+韩国新闻,FGTV,FGTV.kr,是,https://fgtvlive.fgtv.com/smil:fgtv.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1128000,RESOLUTION=1280x720 chunklist_b1128000.m3u8 #EXT-X-STREAM-I"
+韩国新闻,GCN24 Korean,GCN.kr,是,http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1462272,CODECS=""avc1.640020,mp4a.40.2"" chunklist.m3u8 "
+韩国新闻,GoodTV,GoodTV.kr,否,,1,0,TimeoutError: timed out
+韩国新闻,Job Plus TV (한국직업방송),JobplusTV.kr,否,,2,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,Job Plus TV (한국직업방송),JobplusTV.kr,是,https://live.jobplustv.or.kr/live/wowtvlive1.sdp/playlist.m3u8,2,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=250000 chunklist_w2011477061.m3u8 "
+韩国新闻,KBS1,HLKADTV.kr,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,KBS 1 UHD,KBS1TV.kr,否,,2,0,TimeoutError: timed out
+韩国新闻,KBS 1 UHD,KBS1TV.kr,否,,2,0,TimeoutError: timed out
+韩国新闻,KBS2,KBS2TV.kr,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,KBS Drama,KBSDrama.kr,否,,2,200,
+韩国新闻,KBS Drama,KBSDrama.kr,否,,2,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,KBS Joy,KBSJoy.kr,否,,2,200,
+韩国新闻,KBS Joy,KBSJoy.kr,否,,2,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,KBS Kids,KBSKids.kr,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,KBS Life,KBSLife.kr,否,,2,200,
+韩国新闻,KBS Life,KBSLife.kr,否,,2,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,KBS LiveCam DokDo,KBSLiveCamDokDo.kr,是,http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3  #EXT-X-STREAM-INF:BANDWIDTH=504439,AVERAGE-BANDWIDTH=505032,RESOLUTION=960x540,FRAME-RATE=30.0"
+韩国新闻,KBS News D,KBSNewsD.kr,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,KBS Story,KBSStory.kr,否,,2,200,
+韩国新闻,KBS Story,KBSStory.kr,否,,2,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,KBS World,KBSWorld.kr,否,,2,400,"<HTML><HEAD> <TITLE>Invalid URL</TITLE> </HEAD><BODY> <H1>Invalid URL</H1> The requested URL ""&#91;no&#32;URL&#93;"", is "
+韩国新闻,KBS World,KBSWorld.kr,否,,2,404,
+韩国新闻,Korea TV,KTV.kr,是,https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=4331387,CODECS=""avc1.42e028,mp4a.40.2"",RESOLUTION=1920x1080 chunkli"
+韩国新闻,MBC Andong (안동 MBC),HLAWDTV.kr,是,http://andong.webcasting.co.kr/live/mbc/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=250000 chunklist_w596641983.m3u8 "
+韩国新闻,MBC Chungbuk (MBC 충북),HLAODTV.kr,是,http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=4062134,CODECS=""avc1.66.30,mp4a.40.2"",RESOLUTION=1280x720 chunklist"
+韩国新闻,MBC Drama,MBCDrama.kr,否,,1,200,
+韩国新闻,MBC Net,MBCNet.kr,否,,1,200,
+韩国新闻,MTN,MTN.kr,否,,1,0,TimeoutError: timed out
+韩国新闻,National Assembly TV,NationalAssemblyTV.kr,否,,1,404,"        <!DOCTYPE html> <html   lang=""en""      data-color-mode=""auto"" data-light-theme=""light"" data-dark-theme=""dark""   "
+韩国新闻,NBS Korea Agricultural Broadcasting,NBS.kr,是,https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1479152,CODECS=""avc1.77.32,mp4a.40.2"",RESOLUTION=1280x720 chunklist"
+韩国新闻,NHTV,NHTV.kr,是,http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2255098,CODECS=""avc1.64001f,mp4a.40.2"",RESOLUTION=1280x720 http://2"
+韩国新闻,OCN,OCN.kr,否,,2,0,TimeoutError: timed out
+韩国新闻,OCN,OCN.kr,否,,2,0,TimeoutError: timed out
+韩国新闻,OUN,OUN.kr,是,https://live.knou.ac.kr/knou1/live1/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2128000,CODECS=""avc1.4d4028,mp4a.40.2"" chunklist.m3u8?solsessionid="
+韩国新闻,RTV,RTV.kr,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国新闻,RUTC TV,RUTCTV.kr,是,http://d26sxnc75smwvh.cloudfront.net/livehttporigin/rutclive_720p2.stream/playlist.m3u8,1,200,#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=250000 chunklist.m3u8 
+韩国新闻,SBS CJB,HLDRDTV.kr,否,,1,403,
+韩国新闻,SBS JTV,HLDQDTV.kr,是,http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1051181,CODECS=""avc1.42c01e,mp4a.40.2"",RESOLUTION=720x406 chunklist"
+韩国新闻,SPOTV,SPOTV.kr,否,,1,400,"<HTML><HEAD> <TITLE>Invalid URL</TITLE> </HEAD><BODY> <H1>Invalid URL</H1> The requested URL ""&#91;no&#32;URL&#93;"", is "
+韩国新闻,SPOTV2,SPOTV2.kr,否,,1,400,"<HTML><HEAD> <TITLE>Invalid URL</TITLE> </HEAD><BODY> <H1>Invalid URL</H1> The requested URL ""&#91;no&#32;URL&#93;"", is "
+韩国新闻,STB,STB.kr,否,,1,404,
+韩国新闻,TBS Seoul,TBSTV.kr,是,https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=4692000,AVERAGE-BANDWIDTH=4692000,CODECS=""avc1.640828,mp4a.40.2"",RE"
+韩国新闻,TV Chosun,TVChosun.kr,是,http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=5731276,CODECS=""avc1.42c029,mp4a.40.2"",RESOLUTION=1280x720 chunklis"
+韩国新闻,TV Chosun 2,TVChosun2.kr,是,http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=3217147,CODECS=""avc1.42c029,mp4a.40.2"",RESOLUTION=1280x720 chunklis"
+韩国新闻,tvN Asia (Indonesian Subtitle),tvN.kr,否,,1,0,TimeoutError: timed out
+韩国新闻,tvN Movies (Indonesian Subtitle),tvNMoviesAsia.hk,否,,1,0,TimeoutError: timed out
+韩国新闻,WBC TV,WBCTV.kr,否,,1,404,Not Found
+韩国新闻,WBS TV,WBSTV.kr,否,,1,0,ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+韩国新闻,YTN,YTN.kr,否,,2,0,TimeoutError: timed out
+韩国新闻,YTN,YTN.kr,否,,2,0,TimeoutError: timed out
+韩国新闻,Arirang TV HD,ArirangTV.kr@HD,否,,1,0,TimeoutError: The read operation timed out
+韩国新闻,GCN,GCN.kr@SD,是,http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1462272,CODECS=""avc1.640020,mp4a.40.2"" chunklist.m3u8 "
+韩国新闻,MNB World,MNBWorld.mn@SD,是,https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd,1,200,"<?xml version=""1.0"" encoding=""utf-8""?> <MPD xmlns=""urn:mpeg:dash:schema:mpd:2011"" xmlns:xsi=""http://www.w3.org/2001/XMLS"
+韩国新闻,NBS,NBS.kr@SD,是,https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1479152,CODECS=""avc1.77.32,mp4a.40.2"",RESOLUTION=1280x720 chunklist"
+韩国新闻,TBS TV,TBSTV.kr@SD,是,https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=4692000,AVERAGE-BANDWIDTH=4692000,CODECS=""avc1.640828,mp4a.40.2"",RE"
+韩国新闻,Buddhist Broadcasting System TV,,是,http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=2244731,CODECS=""avc1.77.41,mp4a.40.2"",RESOLUTION=1920x1080 chunklis"
+韩国新闻,Buddhist True Network TV,,是,http://btn.nowcdn.co.kr/btn/btnlive01/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1312281,CODECS=""avc1.42001e,mp4a.40.2"",RESOLUTION=1280x720 chunklis"
+韩国新闻,CPBC TV,,是,http://onair1.cpbc.co.kr:1935/tv/mp4:live720/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=328145,CODECS=""avc1.77.30,mp4a.40.2"",RESOLUTION=720x404 chunklist_w"
+韩国新闻,EBS TV-1,,否,,1,0,TimeoutError: timed out
+韩国新闻,EBS TV-2,,否,,1,0,TimeoutError: timed out
+韩国新闻,EBS TV-e,,否,,1,0,TimeoutError: timed out
+韩国新闻,EBS TV-i,,是,http://ebsonairios.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1150161,CODECS=""avc1.42c01f,mp4a.40.2"",RESOLUTION=711x400 chunklist"
+韩国新闻,EBS TV-Kids,,是,http://ebsonairios.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1151063,CODECS=""avc1.42c01f,mp4a.40.2"",RESOLUTION=711x400 chunklist"
+韩国新闻,EBS TV-Plus 2,,是,http://ebsonairios.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=1147607,CODECS=""avc1.42c01f,mp4a.40.2"",RESOLUTION=711x400 chunklist"
+韩国新闻,Korea Work TV,,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国电台,Arirang FM,,是,http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=656000,RESOLUTION=640x360 chunklist_b656000_sleng.m3u8 #EXT-X-STREA"
+韩国电台,befm,,是,http://befm905.live.smilecdn.com:1935/befm905_live/live/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=189872,CODECS=""avc1.640015,mp4a.40.2"",RESOLUTION=424x240 chunklist_"
+韩国电台,Big B Radio - Kpop,,是,https://antares.dribbcast.com/proxy/kpop?mp=/s,1,200,"��\�.��!N0w���-;;r��}k�����*) �P G��ٖ�|\����C6�""#w�EuO�.���� ɗF ��	�f,�P���Ak��'zP�o}� Fdg�:ۏ�#��4^��"
+韩国电台,BOX : K-POP 케이팝,,是,https://play.streamafrica.net/kpopradio,1,200,"���D� %+_Գl6�����h��R
+aa�$o�X1,5�"")@q؀9���""<ڱ�Q�cn�؋WC��ז	�c���hQ""(��s+	��C�i��:>�T!IY��@T��+���zHJn�N�Ak�c�8���j�"
+韩国电台,CBS 표쥰 FM 98.1MHz,,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国电台,cbs music,,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国电台,CBS Music FM,,否,,1,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+韩国电台,CBS Music FM Radio,,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国电台,EBS FM Radio,,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国电台,EBS i Radio,,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国电台,ebs tune in,,否,,1,0,TimeoutError: timed out
+韩国电台,eTBS,,否,,1,404,
+韩国电台,FM 95.1 TBS fm,,否,,1,404,
+韩国电台,Fred Film Radio(한국어),,是,https://s10.webradio-hosting.com/proxy/fredradiokr/stream,1,200,���d' #3a�cR:�[0e:@�q���`�k���L�*:����o��YMc9�Z �9x�E�  �ȩ���x0�9a�p�9?d�O��>	�d>T;Yڒչ��]��������/]��K
+韩国电台,GugakFM,,是,https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/chunklist_w253831608.m3u8,1,200,#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:11 #EXT-X-MEDIA-SEQUENCE:67439 #EXT-X-DISCONTINUITY-SEQUENCE:0 #EXTINF:9.
+韩国电台,gukak,,是,http://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=194933,CODECS=""mp4a.40.2"" chunklist_w171203866.m3u8 "
+韩国电台,Gwangju Foreign Language Network 98.7 - English,,否,,1,0,TimeoutError: timed out
+韩国电台,Happyday Newage Radio EZ,,否,,1,403,"<!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN""> <html><head> <title>403 Forbidden</title> </head><body> <h1>Forbidden"
+韩国电台,JTV 매직FM,,是,https://61ff3340258d2.streamlock.net/jtv_radio/myStream/chunklist_w111659793.m3u8,1,200,#EXTM3U #EXT-X-VERSION:3 #EXT-X-TARGETDURATION:11 #EXT-X-MEDIA-SEQUENCE:593724 #EXT-X-DISCONTINUITY-SEQUENCE:1 #EXTINF:1
+韩国电台,KBS 1R,,否,,1,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+韩国电台,KBS 1Radio,,否,,1,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+韩国电台,KBS Classic FM,,否,,1,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+韩国电台,KBS Cool FM,,否,,1,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+韩国电台,KNN부산 Power FM,,否,,1,0,TimeoutError: timed out
+韩国电台,Listen.moe (K-Pop),,是,https://listen.moe/kpop/fallback,1,200,"�x��
+���NIl�o�5��^�'nU[�<jS�ݯ����)/����n�O 4�����C�n�G����� ""ɬ 4�%�0��������4P4I�2������q!�r����u��b	���"
+韩国电台,Listen.moe Kpop,,是,https://listen.moe/kpop/stream,1,200,OggS         k�0�    T�:OpusHead  ��     OggS          k�0�   �H+�OpusTags   tinyice-opus    OggS  �      k�0
+韩国电台,MBC FM,,否,,1,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+韩国电台,MBC FM4U,,否,,1,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+韩国电台,MBC충북 FM4U,,是,http://211.33.246.4:32954/radio_fm/myStream.sdp/chunklist_w348337231.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-ALLOW-CACHE:NO #EXT-X-TARGETDURATION:11 #EXT-X-MEDIA-SEQUENCE:904585 #EXTINF:9.983, medi"
+韩国电台,MBC충북 표준FM,,是,http://211.33.246.4:32954/radio_stfm/myStream.sdp/chunklist_w392819215.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-ALLOW-CACHE:NO #EXT-X-TARGETDURATION:11 #EXT-X-MEDIA-SEQUENCE:271699 #EXTINF:9.984, medi"
+韩国电台,Oldpop Cafe,,否,,1,302,index.html?sid=1
+韩国电台,Radio Seoul,,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国电台,SBS Love FM,,否,,1,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+韩国电台,SBS Power FM,,否,,1,0,ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+韩国电台,SBS 러브 FM-SBS 라디오,,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国电台,TBC Dream FM,,否,,1,0,TimeoutError: timed out
+韩国电台,TBN 교통방송,,是,http://radio2.tbn.or.kr:1935/gyeongin/myStream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=98614,CODECS=""mp4a.40.2"" chunklist_w2032751712.m3u8 "
+韩国电台,TBN 울산교통방송,,是,http://radio2.tbn.or.kr:1935/ulsan/myStream/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=98619,CODECS=""mp4a.40.2"" chunklist_w2015713917.m3u8 "
+韩国电台,TJB 파워 FM (POWER FM),,否,,1,0,TimeoutError: timed out
+韩国电台,WBS 원음방송,,否,,1,0,TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+韩国电台,YTN 라디오,,否,,1,0,gaierror: [Errno 11001] getaddrinfo failed
+韩国电台,마포FM,,是,http://115.85.182.39/mapofm?type=.mp3,1,200,"��p�� L�y��BC	psX8�K0
+� ��%����V)+aW�d?��������W ��]4���GCh�`��R���
+|��p_�<�)�T�8���)1i�|�m�Q��������X��"
+韩国电台,명품,,是,http://jun28w.saycast.com/,1,200,"<!doctype html> <html lang=""ko"" data-n-head=""%7B%22lang%22:%7B%221%22:%22ko%22%7D%7D"">   <head >     <title>세이클럽</title>"
+韩国电台,안동MBC AM,,是,http://andong.webcasting.co.kr:1935/live/amlive/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=36634,CODECS=""mp4a.40.2"" chunklist_w108347413.m3u8 "
+韩国电台,황금,,是,http://xmfhxm.saycast.com/,1,200,"<!doctype html> <html lang=""ko"" data-n-head=""%7B%22lang%22:%7B%221%22:%22ko%22%7D%7D"">   <head >     <title>세이클럽</title>"
+韩国电台,Arirang Radio,ArirangRadio.kr,是,http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8,1,200,"#EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:BANDWIDTH=656000,RESOLUTION=640x360 chunklist_b656000_sleng.m3u8 #EXT-X-STREA"
