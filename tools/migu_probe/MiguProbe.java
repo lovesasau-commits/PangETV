@@ -29,9 +29,10 @@ import java.util.concurrent.TimeUnit;
 public class MiguProbe {
 
     /** 与 app/src/main/java/com/sasau/pangetv/player/MiguDns.kt 完全一致 */
+    static final String BACKEND = "base-v4v6-cm-miguvideo.e.cdn.chinamobile.com";
+
     static final Map<String, String> ALIASES = Map.of(
-            "cache.ott.fifalive.itv.cmvideo.cn",
-            "base-v4v6-cm-miguvideo.e.cdn.chinamobile.com");
+            "cache.ott.fifalive.itv.cmvideo.cn", BACKEND);
 
     static final String UA = "Mozilla/5.0 (Linux; Android 13; PangETV) AppleWebKit/537.36 "
             + "(KHTML, like Gecko) Chrome/122.0 Safari/537.36";
@@ -41,7 +42,13 @@ public class MiguProbe {
 
         @Override
         public List<InetAddress> lookup(String hostname) throws UnknownHostException {
-            String alias = ALIASES.get(hostname.toLowerCase());
+            String lower = hostname.toLowerCase();
+            String alias = ALIASES.get(lower);
+            if (alias == null
+                    && lower.startsWith("cache.ott.")
+                    && lower.endsWith("itv.cmvideo.cn")) {
+                alias = BACKEND;   // 咪咕取流主机都被污染成 1.1.1.1，统一走真实后端
+            }
             if (alias == null) {
                 return delegate.lookup(hostname);
             }
