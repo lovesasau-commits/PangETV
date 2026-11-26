@@ -103,18 +103,21 @@ def probe(url, referer=None):
         target = url
 
     pin = None
-    if MIGU_CDN_HOST in (urllib.parse.urlparse(target).hostname or ""):
+    tgt_host = urllib.parse.urlparse(target).hostname or ""
+    if tgt_host.startswith("cache.ott.") and tgt_host.endswith("itv.cmvideo.cn"):
+        # 咪咕所有取流主机都被污染成 1.1.1.1，统一钉到真实 CDN IP
         pin = resolve_alias_ip()
         if not pin:
             return 0, "无法解析别名 %s" % MIGU_ALIAS_HOST, False
 
-    status, payload, final = http_get(target, referer=referer, pin_ip=pin)
+    # 注意：第二跳也要带 Referer，早前这里漏了，导致 CDN 一律 403
+    status, payload, final = http_get(target, referer=referer or MIGU_REFERER, pin_ip=pin)
     # 咪咕签名地址可能再 302 一次，继续跟
     hops = 0
     while status in (301, 302, 303, 307, 308) and payload.startswith("http") and hops < 3:
         target = payload
         hops += 1
-        status, payload, final = http_get(target, referer=referer, pin_ip=pin)
+        status, payload, final = http_get(target, referer=referer or MIGU_REFERER, pin_ip=pin)
 
     head = payload[:160].replace("\n", " ") if payload else ""
     ok = status == 200 and ("#EXTM3U" in payload or "#EXTINF" in payload or len(payload) > 60)
