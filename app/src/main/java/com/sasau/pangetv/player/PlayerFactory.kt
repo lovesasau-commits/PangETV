@@ -19,6 +19,12 @@ object PlayerFactory {
             "(KHTML, like Gecko) Chrome/122.0 Safari/537.36"
 
     /**
+     * 咪咕取流必须带 Referer，缺了就一律 403（实测结论，见 tools/migu_probe/）。
+     * 频道自己没声明 Referer 时，咪咕域名自动补上这个默认值。
+     */
+    const val MIGU_REFERER = "https://www.miguvideo.com/"
+
+    /**
      * HTTP 数据源工厂。
      *
      * 用 OkHttp 而不是 Media3 默认的 DefaultHttpDataSource，有两个原因：
@@ -26,7 +32,7 @@ object PlayerFactory {
      *    咪咕的 DNS 别名必须由 OkHttp 的 Dns 钩子来实现；
      * 2. OkHttp 默认跟随 302 跳转，咪咕的取流链路依赖这一步。
      */
-    fun httpFactory(referer: String?): HttpDataSource.Factory {
+    fun httpFactory(url: String?, referer: String?): HttpDataSource.Factory {
         val client = OkHttpClient.Builder()
             .dns(MiguDns())
             .followRedirects(true)
@@ -39,15 +45,23 @@ object PlayerFactory {
         val props = HashMap<String, String>()
         props["User-Agent"] = UA
         props["Accept"] = "*/*"
-        if (!referer.isNullOrBlank()) props["Referer"] = referer
+        val effective = effectiveReferer(url, referer)
+        if (effective != null) props["Referer"] = effective
 
         return OkHttpDataSource.Factory(client)
             .setUserAgent(UA)
             .setDefaultRequestProperties(props)
     }
 
+    /** 频道没给 Referer 时，咪咕域名补默认值，其它域名不给。 */
+    fun effectiveReferer(url: String?, referer: String?): String? {
+        referer?.takeIf { it.isNotBlank() }?.let { return it }
+        if (url != null && url.contains("cmvideo.cn")) return MIGU_REFERER
+        return null
+    }
+
     fun mediaSource(url: String, referer: String?): MediaSource {
-        val factory = httpFactory(referer)
+        val factory = httpFactory(url, referer)
         val item = MediaItem.fromUri(url)
         return if (url.contains(".m3u8", ignoreCase = true)) {
             HlsMediaSource.Factory(factory)
