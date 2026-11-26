@@ -36,6 +36,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
+            android:maxWidth="220dp"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:textColor="@color/fg_dim"
             android:textSize="12sp" />
 
@@ -46,7 +49,7 @@
 
         <EditText
             android:id="@+id/etSearch"
-            android:layout_width="230dp"
+            android:layout_width="190dp"
             android:layout_height="40dp"
             android:background="@drawable/bg_tab"
             android:hint="@string/search_hint"
@@ -72,6 +75,7 @@
             android:textSize="20sp" />
     </LinearLayout>
 
+    <!-- 顶部栏目条：频道分组的唯一入口，遥控器左右键切换 -->
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -85,6 +89,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal" />
     </HorizontalScrollView>
+
+    <!-- 当前栏目 / 搜索结果提示 -->
+    <TextView
+        android:id="@+id/tvGroupInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/fg_dim"
+        android:textSize="12sp" />
 
     <FrameLayout
         android:layout_width="match_parent"
