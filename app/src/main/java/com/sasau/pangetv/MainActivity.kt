@@ -3,6 +3,7 @@ package com.sasau.pangetv
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.KeyEvent
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.PopupMenu
@@ -10,6 +11,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.sasau.pangetv.databinding.ActivityMainBinding
@@ -21,6 +23,16 @@ import com.sasau.pangetv.ui.ChannelAdapter
 import com.sasau.pangetv.ui.Row
 import kotlinx.coroutines.launch
 
+/**
+ * 首页。
+ *
+ * 交互约定（v1.1）：
+ *  - 顶部 tab 是**唯一的频道分组入口**，默认落在「常用」；
+ *  - tab 必须能被遥控器 D-pad 拿到焦点（focusable + focusableInTouchMode），
+ *    左右键切栏目，上下键进列表；
+ *  - 列表不再按分组重复插标题行（栏目已经在 tab 上说明了），少一层滚动；
+ *  - 搜索时跨全部栏目找，清空搜索才回到当前栏目。
+ */
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -29,6 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     private var all: List<Channel> = emptyList()
     private var epg: Map<String, List<Programme>> = emptyMap()
+    private var groups: List<String> = emptyList()
     private var selectedGroup: String? = null
     private var query: String = ""
 
@@ -66,9 +79,12 @@ class MainActivity : AppCompatActivity() {
             val (label, list) = repo.load()
             all = list
             binding.tvSource.text = label
+            groups = list.map { it.group }.distinct()
+            selectedGroup = pickDefaultGroup()
             buildTabs()
             render()
             binding.progress.visibility = View.GONE
+            focusSelectedTab()
 
             // 节目单后台拉取，失败无所谓
             val map = EpgRepository.load(this@MainActivity)
@@ -79,55 +95,84 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /** 默认进「常用」；没有就退到第一个栏目。 */
+    private fun pickDefaultGroup(): String? {
+        if (groups.isEmpty()) return null
+        val fav = groups.firstOrNull { it.contains("常用") }
+        return fav ?: groups.first()
+    }
+
     private fun buildTabs() {
         binding.tabGroup.removeAllViews()
-        val groups = listOf<String?>(null) + all.map { it.group }.distinct()
         for (g in groups) {
             val tv = TextView(this)
-            tv.text = g ?: getString(com.sasau.pangetv.R.string.group_all)
-            tv.setPadding(dp(14), dp(6), dp(14), dp(6))
-            tv.setTextColor(if (g == selectedGroup) {
-                androidx.core.content.ContextCompat.getColor(this, com.sasau.pangetv.R.color.bg)
-            } else {
-                androidx.core.content.ContextCompat.getColor(this, com.sasau.pangetv.R.color.fg_dim)
-            })
-            tv.setBackgroundResource(if (g == selectedGroup) {
-                com.sasau.pangetv.R.drawable.bg_tab_selected
-            } else {
-                com.sasau.pangetv.R.drawable.bg_tab
-            })
-            tv.setOnClickListener {
-                selectedGroup = g
-                buildTabs()
-                render()
+            tv.text = g
+            tv.setPadding(dp(16), dp(7), dp(16), dp(7))
+            tv.setTextColor(ContextCompat.getColorStateList(this, R.color.tab_text))
+            tv.setBackgroundResource(R.drawable.tab_bg)
+            // 遥控器 D-pad 要能走到 tab 上：之前这里漏了 focusable，顶部选项点不动
+            tv.isFocusable = true
+            tv.isFocusableInTouchMode = true
+            tv.isSelected = g == selectedGroup
+            tv.setOnClickListener { selectGroup(g) }
+            tv.setOnKeyListener { _, keyCode, event ->
+                if (keyCode == KeyEvent.KEYCODE_DPAD_UP && event.action == KeyEvent.ACTION_DOWN) {
+                    // 上下键：从列表回到栏目条
+                    tv.requestFocus()
+                    true
+                } else {
+                    false
+                }
             }
             binding.tabGroup.addView(tv)
         }
     }
 
+    private fun selectGroup(g: String) {
+        selectedGroup = g
+        buildTabs()
+        render()
+        focusSelectedTab()
+    }
+
+    private fun focusSelectedTab() {
+        val idx = groups.indexOf(selectedGroup)
+        if (idx < 0) return
+        binding.tabGroup.post {
+            binding.tabGroup.getChildAt(idx)?.requestFocus()
+        }
+    }
+
     private fun render() {
-        val filtered = all.filter { ch ->
-            val inGroup = selectedGroup == null || ch.group == selectedGroup
-            val inQuery = query.isEmpty() ||
-                    ch.name.contains(query, ignoreCase = true) ||
-                    ch.group.contains(query, ignoreCase = true) ||
-                    (ch.tvgId?.contains(query, ignoreCase = true) == true)
-            inGroup && inQuery
+        val filtered: List<Channel>
+        if (query.isEmpty()) {
+            filtered = all.filter { it.group == selectedGroup }
+        } else {
+            // 搜索跨全部栏目；「常用」里的台是别的栏目的副本，按台名去重免得出现两行
+            val seen = HashSet<String>()
+            filtered = all.filter {
+                it.name.contains(query, ignoreCase = true) ||
+                        it.group.contains(query, ignoreCase = true) ||
+                        (it.tvgId?.contains(query, ignoreCase = true) == true)
+            }.filter { seen.add(it.name) }
         }
-        val rows = ArrayList<Row>()
-        filtered.groupBy { it.group }.forEach { (group, channels) ->
-            rows.add(Row.Header(group, channels.size))
-            channels.forEach { rows.add(Row.Item(it, EpgRepository.now(epg, it))) }
-        }
+        val rows = filtered.map { Row.Item(it, EpgRepository.now(epg, it)) }
         adapter.submit(rows)
         binding.tvEmpty.visibility = if (rows.isEmpty()) View.VISIBLE else View.GONE
+        binding.tvEmpty.text = getString(
+            if (query.isEmpty()) R.string.empty_list else R.string.empty_search)
+        binding.tvGroupInfo.text = if (query.isEmpty()) {
+            getString(R.string.group_info, selectedGroup ?: "", rows.size)
+        } else {
+            getString(R.string.group_info_search, query, rows.size)
+        }
     }
 
     private fun showMenu(anchor: View) {
         val menu = PopupMenu(this, anchor)
-        menu.menu.add(0, 1, 0, getString(com.sasau.pangetv.R.string.menu_reload))
-        menu.menu.add(0, 2, 1, getString(com.sasau.pangetv.R.string.menu_source))
-        menu.menu.add(0, 3, 2, getString(com.sasau.pangetv.R.string.menu_about))
+        menu.menu.add(0, 1, 0, getString(R.string.menu_reload))
+        menu.menu.add(0, 2, 1, getString(R.string.menu_source))
+        menu.menu.add(0, 3, 2, getString(R.string.menu_about))
         menu.setOnMenuItemClickListener { item ->
             when (item.itemId) {
                 1 -> {
@@ -151,35 +196,35 @@ class MainActivity : AppCompatActivity() {
     private fun showSourceDialog() {
         val input = android.widget.EditText(this).apply {
             setText(repo.remoteUrl())
-            setHint(getString(com.sasau.pangetv.R.string.dlg_source_hint))
+            setHint(getString(R.string.dlg_source_hint))
             setPadding(dp(16), dp(12), dp(16), dp(4))
         }
         val wrap = LinearLayout(this).apply { addView(input) }
         AlertDialog.Builder(this)
-            .setTitle(com.sasau.pangetv.R.string.dlg_source_title)
+            .setTitle(R.string.dlg_source_title)
             .setView(wrap)
-            .setPositiveButton(com.sasau.pangetv.R.string.action_save) { _, _ ->
+            .setPositiveButton(R.string.action_save) { _, _ ->
                 repo.setRemoteUrl(input.text.toString())
                 loadChannels()
             }
-            .setNeutralButton(com.sasau.pangetv.R.string.action_reset) { _, _ ->
+            .setNeutralButton(R.string.action_reset) { _, _ ->
                 repo.setRemoteUrl("")
                 loadChannels()
             }
-            .setNegativeButton(com.sasau.pangetv.R.string.action_cancel, null)
+            .setNegativeButton(R.string.action_cancel, null)
             .show()
     }
 
     private fun showAbout() {
         val version = try {
-            packageManager.getPackageInfo(packageName, 0).versionName ?: "1.0.0"
+            packageManager.getPackageInfo(packageName, 0).versionName ?: "1.1.0"
         } catch (_: Exception) {
-            "1.0.0"
+            "1.1.0"
         }
         AlertDialog.Builder(this)
-            .setTitle(com.sasau.pangetv.R.string.app_name)
-            .setMessage(getString(com.sasau.pangetv.R.string.about_body, version))
-            .setPositiveButton(com.sasau.pangetv.R.string.action_save, null)
+            .setTitle(R.string.app_name)
+            .setMessage(getString(R.string.about_body, version))
+            .setPositiveButton(R.string.action_ok, null)
             .show()
     }
 
